@@ -62,8 +62,12 @@ body  {
 }
 
 a:hover {
-    border-bottom:1px solid #9A8E51;
-    color:#000000;
+    border-bottom: 1px solid #9A8E51;
+    color: #000000;
+}
+
+h1 a:hover {
+   border: none;
 }
 
 #readmore a:hover {

@@ -1,195 +1,47 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-  <title>Open Manual Project</title>
-  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-  <meta name="description" content="" />
-  <meta name="keywords" content="" />
-  <link rel="stylesheet" type="text/css" href="home.css" /> 
-  <link href="prettify/prettify.css" type="text/css" rel="stylesheet" />
-  <script type="text/javascript" src="prettify/prettify.js"></script>
-</head>
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Open Manual Project</title>
+      <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+      <meta name="description" content="" />
+      <meta name="keywords" content="" />
+      <link rel="stylesheet" type="text/css" href="home.css" /> 
+   </head>
+   <body>
+      <div class="container">
+         <ul id="navbar">
+            <li id="topics"><a href="documentation.html" title="Documentation">Documentation</a></li>
+            <li id="topics"><a href="standard.html" title="Standard">Proposed Standard</a></li>
+            <li id="articles"><a href="about.html" title="About">About</a></li>
+         </ul>
 
-<body class="" onload="prettyPrint()">
-<div class="container">
-  <ul id="navbar">
-    <li id="topics"><a href="documentation.html" title="Documentation">Documentation</a></li>
-    <li id="topics"><a href="standard.html" title="Standard">Proposed Standard</a></li>
-    <li id="articles"><a href="about.html" title="About">About</a></li>
-  </ul>
+         <h1><a href="index.html" title="Home">Open Manual Project</a></h1>
+         <h2>Draft Standard</h2>
 
-  <h1>Open Manual Project</h1>
-  <h2>Draft Standard</h2>
+         <h4>License</h4>
+         <p>This specification is made available under the Creative Commons <a href="http://creativecommons.org/licenses/by/3.0/">Attribution 3.0 Unported License</a>
 
-  <h4>License</h4>
-  <p>This specification is made available under the Creative Commons <a href="http://creativecommons.org/licenses/by/3.0/">Attribution 3.0 Unported License</a>
+         <h4>Abstract</h4>
 
-   <h4>Abstract</h4>
+         <p>Nunc at velit quis lectus nonummy eleifend. Curabitur eros. Aenean ligula dolor, gravida auctor, auctor et, suscipit in, erat. Sed malesuada, enim ut congue pharetra, massa elit convallis pede, ornare scelerisque libero neque ut neque. In at libero. Curabitur molestie. Sed vel neque. Proin et dolor ac ipsum elementum malesuada. Praesent id orci. Donec hendrerit. In hac habitasse platea dictumst. Aenean sit amet arcu a turpis posuere pretium.</p>
 
-   <p>Nunc at velit quis lectus nonummy eleifend. Curabitur eros. Aenean ligula dolor, gravida auctor, auctor et, suscipit in, erat. Sed malesuada, enim ut congue pharetra, massa elit convallis pede, ornare scelerisque libero neque ut neque. In at libero. Curabitur molestie. Sed vel neque. Proin et dolor ac ipsum elementum malesuada. Praesent id orci. Donec hendrerit. In hac habitasse platea dictumst. Aenean sit amet arcu a turpis posuere pretium.</p>
+         <h4>Authors</h4>
+         <ul>
+            <li>Kyle Wiens, iFixit</li>
+            <li>Nat Welch, iFixit</li>
+            <li>Dale Dougherty, O'Reilly Media</li>
+            <li>Gerry Arrington, O'Reilly Media</li>
+            <li>Stefan Antonowicz, O'Reilly Media</li>
+         </ul>
 
-   <h4>Authors</h4>
-   <ul>
-     <li>Kyle Wiens, iFixit</li>
-     <li>Shawn Tice, iFixit</li>
-     <li>Dale Dougherty, O'Reilly Media</li>
-     <li>Gerry Arrington, O'Reilly Media</li>
-   </ul>
+         <h4>Document Type Definition</h4>
+         <p><a href="openmanual_0.1.dtd">Download example DTD</a>.</p>
 
-   <h4>Document Type Definition</h4>
-   <p><a href="openmanual_0.1.dtd">Download example DTD</a>.</p>
+         <h4>Example</h4>
+         <div class="mycode">
+         </div>
 
-   <h4>Example</h4>
-   <div class="mycode">
-        <pre class="prettyprint lang-xml">
-&lt;?xml version="1.0"?&gt;
-&lt;!-- &lt;!DOCTYPE guide PUBLIC "guide" "http://www.ifixit.com/guide.dtd"&gt; --&gt;
-&lt;guide&gt;
-   &lt;meta&gt;
-      &lt;title&gt;My Robot, Makey Teardown&lt;/title&gt;
-      &lt;id&gt;1018&lt;/id&gt;
-      &lt;locale&gt;en&lt;/locale&gt;
-      &lt;author&gt;makermedia&lt;/author&gt;
-      &lt;time /&gt;
-      &lt;difficulty&gt;Moderate&lt;/difficulty&gt;
-      &lt;introduction&gt;&lt;p&gt;I’ve made some fun robots, but I never liked the way they look, with their parts stacked up, and black tape and visible wires running everywhere. I decided to build a bot that combined tried-and-true workings with some Hollywood bling. I sketched some ideas, and this is the one that spoke to me.&lt;/p&gt;
-
-&lt;p&gt;Makey is an autonomous robot that I’ve programmed to follow objects around. It uses tank steering, aka differential drive, where separate DC motors power each of the 2 drive wheels. A servomotor moves its head, which carries a single ultrasonic rangefinder. Control comes from an Arduino microcontroller, which I’ve programmed to do object following and obstacle avoidance. With these behaviors, Makey constantly turns its head right and left to acquire differential ranging data, adding to its personality.&lt;/p&gt;
-
-&lt;p&gt;The chassis design is unusual in that there are no exposed components; I vowed to keep everything enclosed, which made the design harder, but it was worth it.&lt;/p&gt;
-
-&lt;p&gt;With different Arduino programming, the hardware would support mapping and other activities, and with a few hardware mods, Makey could also compete in Mini-Sumo, one of the most popular events in robotics competitions.&lt;/p&gt;&lt;/introduction&gt;
-   &lt;/meta&gt;
-   &lt;steps&gt;
-      &lt;step number="1"&gt;
-         &lt;lines&gt;
-            &lt;line bullet="black" level="0"&gt;&lt;strong&gt; Make the Body:&lt;/strong&gt;
-
-The body consists of 2 pieces of sheet aluminum. You can cut, drill, and bend one piece at a time, or do both at once to minimize switching tool stations.&lt;/line&gt;
-            &lt;line bullet="black" level="0"&gt;Download the &lt;a href="http://makezine.com/19/makey" rel="nofollow"&gt;5 Makey templates&lt;/a&gt; and print them out full-size. Cut out the base-cutting template, and cut holes in the blank area of each panel. Securely tape the template to the aluminum sheet with double-stick tape on the back and regular tape over the holes.&lt;/line&gt;
-         &lt;/lines&gt;
-         &lt;images&gt;
-            &lt;image guid="pdhDIBGi6UlQHmv3" imageid="11025" orderby="1"&gt;/igi/pdhDIBGi6UlQHmv3&lt;/image&gt;
-         &lt;/images&gt;
-      &lt;/step&gt;
-      &lt;step number="2"&gt;
-         &lt;lines&gt;
-            &lt;line bullet="icon_caution" level="0"&gt;&lt;strong&gt;CAUTION:&lt;/strong&gt; Always wear protective eyewear when cutting metal.&lt;/line&gt;
-            &lt;line bullet="black" level="0"&gt;With a band saw, cut the aluminum roughly to size around the template, then cut the perimeter just outside the lines.&lt;/line&gt;
-            &lt;line bullet="icon_note" level="0"&gt;&lt;strong&gt;TIP:&lt;/strong&gt; For inside corners, first cut a gradual curve close to the corner, then back up and cut into the corner’s point from each direction.&lt;/line&gt;
-         &lt;/lines&gt;
-         &lt;images&gt;
-            &lt;image guid="wJA1iub5nKAQn4WV" imageid="11028" orderby="1"&gt;/igi/wJA1iub5nKAQn4WV&lt;/image&gt;
-         &lt;/images&gt;
-      &lt;/step&gt;
-      &lt;step number="3"&gt;
-         &lt;lines&gt;
-            &lt;line bullet="black" level="0"&gt;Use a center punch and small hammer to punch through the template at the 17 crosshairs (for drilling in the next step) and at the corners of the rectangles around the large holes.&lt;/line&gt;
-         &lt;/lines&gt;
-         &lt;images&gt;
-            &lt;image guid="1vMYJOTns2GvSkoI" imageid="11248" orderby="1"&gt;/igi/1vMYJOTns2GvSkoI&lt;/image&gt;
-         &lt;/images&gt;
-      &lt;/step&gt;
-      &lt;step number="4"&gt;
-         &lt;lines&gt;
-            &lt;line bullet="black" level="0"&gt;Drill the holes at the crosshairs following the sizes marked on the template. Remove (but keep) the paper first, to line up on the punch marks more accurately. Clamp the metal tightly onto scrap wood, and wherever possible use the unibit, which makes cleaner holes in thin metal than a twist drill. For the starter holes inside the rectangles, you may need to adjust the diameter smaller or larger to reach the rectangle edges.&lt;/line&gt;
-         &lt;/lines&gt;
-         &lt;images&gt;
-            &lt;image guid="FaRM3fQDwRAXkh1Z" imageid="11030" orderby="1"&gt;/igi/FaRM3fQDwRAXkh1Z&lt;/image&gt;
-         &lt;/images&gt;
-      &lt;/step&gt;
-      &lt;step number="5"&gt;
-         &lt;lines&gt;
-            &lt;line bullet="black" level="0"&gt;Finish the rectangular holes with the nibbler tool, cutting away until a rectangle appears. If you want, you can retape the template to see the rectangles more clearly. Then file the edges smooth.&lt;/line&gt;
-            &lt;line bullet="black" level="0"&gt;Use a handheld deburring tool to remove burrs from the metal’s edges. To deburr the small holes, push the point of a larger drill bit over the holes and twist it by hand.&lt;/line&gt;
-         &lt;/lines&gt;
-         &lt;images&gt;
-            &lt;image guid="UoVWs2rLj2Sux5Jb" imageid="11250" orderby="1"&gt;/igi/UoVWs2rLj2Sux5Jb&lt;/image&gt;
-            &lt;image guid="mLHrshJGtRTNolXf" imageid="11202" orderby="2"&gt;/igi/mLHrshJGtRTNolXf&lt;/image&gt;
-         &lt;/images&gt;
-      &lt;/step&gt;
-      &lt;step number="6"&gt;
-         &lt;lines&gt;
-            &lt;line bullet="black" level="0"&gt;Cut out the base bending template and attach it to the other side of the aluminum with double-stick tape, aligning the holes and rectangles.&lt;/line&gt;
-            &lt;line bullet="black" level="1"&gt;Insert the metal in the brake with the new template facing up, and make all indicated bends at 90°.&lt;/line&gt;
-            &lt;line bullet="black" level="1"&gt;For each bend, go up gradually, using a drafting square between small bends to check the angle.&lt;/line&gt;
-            &lt;line bullet="icon_note" level="1"&gt;First bend the tabs on each long side of the metal, then bend up the sides of the body.&lt;/line&gt;
-         &lt;/lines&gt;
-         &lt;images&gt;
-            &lt;image guid="UUO1l2OTg3aNA215" imageid="11252" orderby="1"&gt;/igi/UUO1l2OTg3aNA215&lt;/image&gt;
-            &lt;image guid="gNxPraeWuoXZ6BQJ" imageid="11208" orderby="2"&gt;/igi/gNxPraeWuoXZ6BQJ&lt;/image&gt;
-         &lt;/images&gt;
-      &lt;/step&gt;
-      &lt;step number="7"&gt;
-         &lt;lines&gt;
-            &lt;line bullet="black" level="0"&gt;&lt;strong&gt;Add the Drivetrain&lt;/strong&gt;&lt;/line&gt;
-            &lt;line bullet="black" level="0"&gt;Mount the drive motors in the base using 4-40×1” screws through the small holes.&lt;/line&gt;
-            &lt;line bullet="icon_note" level="1"&gt;The motor shafts should poke out of the larger holes.&lt;/line&gt;
-            &lt;line bullet="black" level="0"&gt;Secure the screws with lock washers and nuts on the motor side. The base is small, so you may need needlenose pliers for tightening.&lt;/line&gt;
-            &lt;line bullet="icon_note" level="1"&gt;The base is small, so you may need needlenose pliers for tightening.&lt;/line&gt;
-         &lt;/lines&gt;
-         &lt;images&gt;
-            &lt;image guid="OPG54iChiywuWmYw" imageid="11038" orderby="1"&gt;/igi/OPG54iChiywuWmYw&lt;/image&gt;
-         &lt;/images&gt;
-      &lt;/step&gt;
-      &lt;step number="8"&gt;
-         &lt;lines&gt;
-            &lt;line bullet="black" level="0"&gt;Use a 2” hole saw in a drill press to cut wheels out of some scrap wood. I used 1×8 shelving and my finished wheels were ¾” thick by about 1.8” in diameter.&lt;/line&gt;
-            &lt;line bullet="icon_caution" level="0"&gt;Clamp the wood, and go slowly to avoid stalling the drill press.&lt;/line&gt;
-            &lt;line bullet="black" level="0"&gt;Drill through 2 opposing holes in the hub with a #43 drill, then use a 4-40 tap to create threads in each hole.&lt;/line&gt;
-            &lt;line bullet="black" level="0"&gt;Center a wheel hub on each wooden wheel and use a small nail to mark 2 of the hole locations. Drill through the locations with a 1” drill.&lt;/line&gt;
-         &lt;/lines&gt;
-         &lt;images&gt;
-            &lt;image guid="jjwyYfYdQqSfLKMV" imageid="11289" orderby="1"&gt;/igi/jjwyYfYdQqSfLKMV&lt;/image&gt;
-            &lt;image guid="ZELKeGoZUDDOBVO1" imageid="11205" orderby="2"&gt;/igi/ZELKeGoZUDDOBVO1&lt;/image&gt;
-         &lt;/images&gt;
-      &lt;/step&gt;
-      &lt;step number="9"&gt;
-         &lt;lines&gt;
-            &lt;line bullet="black" level="0"&gt;Paint the wheels. I love the Rust-Oleum red gloss; it is super thick, brightly colored, covers great, and cleans up easily.&lt;/line&gt;
-            &lt;line bullet="icon_note" level="0"&gt;Try not to get too much paint in the mounting holes.&lt;/line&gt;
-            &lt;line bullet="black" level="0"&gt;Use two 4-40×1” screws to attach the wheels to the hubs from the outside.&lt;/line&gt;
-            &lt;line bullet="icon_caution" level="0"&gt;Don’t overtighten.&lt;/line&gt;
-         &lt;/lines&gt;
-         &lt;images&gt;
-            &lt;image guid="ubfyFJmQqL1eiKmV" imageid="11257" orderby="1"&gt;/igi/ubfyFJmQqL1eiKmV&lt;/image&gt;
-         &lt;/images&gt;
-      &lt;/step&gt;
-      &lt;step number="10"&gt;
-         &lt;lines&gt;
-            &lt;line bullet="black" level="0"&gt;Install tires on the wheels, orienting them with the larger diameter facing out. Then snap each wheel assembly into its motor shaft. Attach the skidder to the bottom of the base using the screws, nuts, and the thinner of the 2 spacers it comes with.&lt;/line&gt;
-         &lt;/lines&gt;
-         &lt;images&gt;
-            &lt;image guid="1XqL2QidRcZieG5U" imageid="11209" orderby="1"&gt;/igi/1XqL2QidRcZieG5U&lt;/image&gt;
-            &lt;image guid="PTNun1Ka25KVALni" imageid="11259" orderby="2"&gt;/igi/PTNun1Ka25KVALni&lt;/image&gt;
-         &lt;/images&gt;
-      &lt;/step&gt;
-   &lt;/steps&gt;
-   &lt;tools&gt;
-      &lt;tool&gt;#43 drill bit&lt;/tool&gt;
-      &lt;tool&gt;9" bandsaw with  1" metal cutting blade&lt;/tool&gt;
-      &lt;tool&gt;18" bending brake Harbor Freight #39103-8VGA,&lt;/tool&gt;
-      &lt;tool&gt;Drill press with vise clamp and scrap wood block&lt;/tool&gt;
-      &lt;tool&gt;Fractional drill bit set&lt;/tool&gt;
-      &lt;tool&gt;Nibbler tool  Jameco #18810&lt;/tool&gt;
-      &lt;tool&gt;Step drill, aka unibit, Harbor Freight #91616-0VGA&lt;/tool&gt;
-   &lt;/tools&gt;
-   &lt;parts /&gt;
-   &lt;flags&gt;
-      &lt;flag title="In Progress"&gt;This guide is currently being written. Reload periodically to see the latest changes.&lt;/flag&gt;
-      &lt;flag title="Unpublished"&gt;This guide will not appear in search results but can still be viewed by anyone!&lt;/flag&gt;
-      &lt;flag title="User-Contributed Guide"&gt;This guide is not managed by iFixit staff.&lt;/flag&gt;
-   &lt;/flags&gt;
-&lt;/guide&gt;
-
-   </pre>
-
-</div>
-
-<div class="footer">Open Manual Project is an open source standard being developed by a <a href="/about">small group</a> of dedicated individuals.</div>
-
-</div>
-
-</body>
+         <div class="footer">Open Manual Project is an open source standard being developed by a <a href="/about">small group</a> of dedicated individuals.</div>
+      </div>
+   </body>
 </html>
