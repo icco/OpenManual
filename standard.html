@@ -6,6 +6,7 @@
       <meta name="description" content="" />
       <meta name="keywords" content="" />
       <link rel="stylesheet" type="text/css" href="home.css" /> 
+      <link rel="stylesheet" type="text/css" href="syntax.css" /> 
    </head>
    <body>
       <div class="container">
@@ -38,7 +39,104 @@
          <p><a href="openmanual_0.2.xsd">Download XSD</a>.</p>
 
          <h4>Example</h4>
-         <div class="mycode">
+         <div id="mycode">
+
+<!-- BEGIN CODE -->
+<div class="highlight"><pre><span class="cp">&lt;?xml version=&quot;1.0&quot;?&gt;</span>
+<span class="cp">&lt;!DOCTYPE guide PUBLIC &quot;guide&quot; &quot;http://www.ifixit.com/guide.dtd&quot;&gt;</span>
+<span class="nt">&lt;guide</span> <span class="na">id=</span><span class="s">&quot;419&quot;</span> <span class="na">locale=</span><span class="s">&quot;en&quot;</span><span class="nt">&gt;</span>
+   <span class="nt">&lt;title</span> <span class="na">subject=</span><span class="s">&quot;Bottom Bezel Bracket&quot;</span> <span class="na">type=</span><span class="s">&quot;installation&quot;</span><span class="nt">&gt;</span>Installing iPod Nano 2nd Generation Bottom Bezel Bracket<span class="nt">&lt;/title&gt;</span>
+   <span class="nt">&lt;summary&gt;</span>This is a summary. It is less than 255 characters.<span class="nt">&lt;/summary&gt;</span>
+   <span class="nt">&lt;image</span> <span class="na">guid=</span><span class="s">&quot;TFCKijfJ5fo2IADd&quot;</span> <span class="na">id=</span><span class="s">&quot;1801&quot;</span><span class="nt">&gt;</span>http://nwelch.cominor.com/igi/TFCKijfJ5fo2IADd<span class="nt">&lt;/image&gt;</span>
+   <span class="nt">&lt;author</span> <span class="na">id=</span><span class="s">&quot;1&quot;</span><span class="nt">&gt;</span>iRobot<span class="nt">&lt;/author&gt;</span>
+   <span class="nt">&lt;time_required&gt;</span>10 minutes<span class="nt">&lt;/time_required&gt;</span>
+   <span class="nt">&lt;difficulty&gt;</span>Difficult<span class="nt">&lt;/difficulty&gt;</span>
+   <span class="nt">&lt;categories&gt;</span>
+      <span class="nt">&lt;category&gt;</span>iPod Nano 2nd Generation<span class="nt">&lt;/category&gt;</span>
+   <span class="nt">&lt;/categories&gt;</span>
+   <span class="nt">&lt;introduction&gt;&lt;p&gt;</span>The metal bracket within your iPod.<span class="nt">&lt;/p&gt;&lt;/introduction&gt;</span>
+   <span class="nt">&lt;tools&gt;</span>
+      <span class="nt">&lt;tool</span> <span class="na">thumbnail=</span><span class="s">&quot;http://cart-products.ifixit.net/cart-products/GtpNGCPhUURCXnXL.mini.jpg&quot;</span> <span class="na">url=</span><span class="s">&quot;http://nwelch.cominor.com/Tools/Metal-Spudger/IF145-012&quot;</span><span class="nt">&gt;</span>Metal Spudger<span class="nt">&lt;/tool&gt;</span>
+      <span class="nt">&lt;tool</span> <span class="na">thumbnail=</span><span class="s">&quot;http://cart-products.ifixit.net/cart-products/GGXkxBRrmZg6iRdE.mini.jpg&quot;</span> <span class="na">url=</span><span class="s">&quot;http://nwelch.cominor.com/Tools/Phillips-00-Screwdriver/IF145-006&quot;</span><span class="nt">&gt;</span>Phillips #00 Screwdriver<span class="nt">&lt;/tool&gt;</span>
+      <span class="nt">&lt;tool</span> <span class="na">url=</span><span class="s">&quot;http://nwelch.cominor.com/Item/Plastic_Opening_Tools&quot;</span><span class="nt">&gt;</span>Plastic Opening Tools<span class="nt">&lt;/tool&gt;</span>
+   <span class="nt">&lt;/tools&gt;</span>
+   <span class="nt">&lt;parts&gt;</span>
+      <span class="nt">&lt;part</span> <span class="na">thumbnail=</span><span class="s">&quot;http://cart-products.ifixit.net/cart-products/CPiMKmSYDDea2nu1.mini.jpg&quot;</span> <span class="na">url=</span><span class="s">&quot;http://nwelch.cominor.com/iPod-Parts/iPod-Nano-Gen-2-Bottom-Bezel-Bracket/IF199-006&quot;</span><span class="nt">&gt;</span>iPod Nano Gen 2 Bottom Bezel Bracket<span class="nt">&lt;/part&gt;</span>
+   <span class="nt">&lt;/parts&gt;</span>
+   <span class="nt">&lt;flags</span> <span class="nt">/&gt;</span>
+   <span class="nt">&lt;documents&gt;</span>
+      <span class="nt">&lt;document</span> <span class="na">id=</span><span class="s">&quot;138&quot;</span> <span class="na">url=</span><span class="s">&quot;http://cominor-documents.s3.amazonaws.com/UxujoG1XDgJ5qnRq.pdf&quot;</span><span class="nt">&gt;</span>About-Stacks.pdf<span class="nt">&lt;/document&gt;</span>
+   <span class="nt">&lt;/documents&gt;</span>
+   <span class="nt">&lt;prerequisites&gt;</span>
+      <span class="nt">&lt;prerequisite</span> <span class="na">id=</span><span class="s">&quot;418&quot;</span> <span class="na">locale=</span><span class="s">&quot;en&quot;</span><span class="nt">&gt;</span>Installing iPod Nano 2nd Generation Bottom Bezel<span class="nt">&lt;/prerequisite&gt;</span>
+   <span class="nt">&lt;/prerequisites&gt;</span>
+   <span class="nt">&lt;steps&gt;</span>
+      <span class="nt">&lt;step</span> <span class="na">number=</span><span class="s">&quot;1&quot;</span> <span class="na">title=</span><span class="s">&quot;&quot;</span><span class="nt">&gt;</span>
+         <span class="nt">&lt;lines&gt;</span>
+            <span class="nt">&lt;line</span> <span class="na">bullet=</span><span class="s">&quot;icon_note&quot;</span> <span class="na">level=</span><span class="s">&quot;0&quot;</span><span class="nt">&gt;</span>Before opening your iPod, ensure that the hold switch is in the locked position.<span class="nt">&lt;/line&gt;</span>
+         <span class="nt">&lt;/lines&gt;</span>
+         <span class="nt">&lt;images&gt;</span>
+            <span class="nt">&lt;image</span> <span class="na">guid=</span><span class="s">&quot;NsEmgggSmqUmqyhX&quot;</span> <span class="na">id=</span><span class="s">&quot;1799&quot;</span> <span class="na">orderby=</span><span class="s">&quot;1&quot;</span><span class="nt">&gt;</span>http://nwelch.cominor.com/igi/NsEmgggSmqUmqyhX<span class="nt">&lt;/image&gt;</span>
+         <span class="nt">&lt;/images&gt;</span>
+      <span class="nt">&lt;/step&gt;</span>
+      <span class="nt">&lt;step</span> <span class="na">number=</span><span class="s">&quot;2&quot;</span> <span class="na">title=</span><span class="s">&quot;&quot;</span><span class="nt">&gt;</span>
+         <span class="nt">&lt;lines&gt;</span>
+            <span class="nt">&lt;line</span> <span class="na">bullet=</span><span class="s">&quot;icon_caution&quot;</span> <span class="na">level=</span><span class="s">&quot;0&quot;</span><span class="nt">&gt;</span>When removing the the bottom bezel, be sure not to bend the plastic surrounding the dock connector.<span class="nt">&lt;/line&gt;</span>
+            <span class="nt">&lt;line</span> <span class="na">bullet=</span><span class="s">&quot;black&quot;</span> <span class="na">level=</span><span class="s">&quot;0&quot;</span><span class="nt">&gt;</span>Carefully insert an iPod opening tool in the seam between the metal casing and white plastic bezel<span class="nt">&lt;/line&gt;</span>
+            <span class="nt">&lt;line</span> <span class="na">bullet=</span><span class="s">&quot;black&quot;</span> <span class="na">level=</span><span class="s">&quot;0&quot;</span><span class="nt">&gt;</span>Lift the bottom bezel off the iPod. It&#39;s glued on using a mild adhesive, so some force may be required.<span class="nt">&lt;/line&gt;</span>
+         <span class="nt">&lt;/lines&gt;</span>
+         <span class="nt">&lt;images&gt;</span>
+            <span class="nt">&lt;image</span> <span class="na">guid=</span><span class="s">&quot;KmjiobyZTwMW2ZPM&quot;</span> <span class="na">id=</span><span class="s">&quot;1800&quot;</span> <span class="na">orderby=</span><span class="s">&quot;1&quot;</span><span class="nt">&gt;</span>http://nwelch.cominor.com/igi/KmjiobyZTwMW2ZPM<span class="nt">&lt;/image&gt;</span>
+         <span class="nt">&lt;/images&gt;</span>
+      <span class="nt">&lt;/step&gt;</span>
+      <span class="nt">&lt;step</span> <span class="na">number=</span><span class="s">&quot;3&quot;</span> <span class="na">title=</span><span class="s">&quot;&quot;</span><span class="nt">&gt;</span>
+         <span class="nt">&lt;lines&gt;</span>
+            <span class="nt">&lt;line</span> <span class="na">bullet=</span><span class="s">&quot;black&quot;</span> <span class="na">level=</span><span class="s">&quot;0&quot;</span><span class="nt">&gt;</span>Remove the following two screws:<span class="nt">&lt;/line&gt;</span>
+            <span class="nt">&lt;line</span> <span class="na">bullet=</span><span class="s">&quot;red&quot;</span> <span class="na">level=</span><span class="s">&quot;1&quot;</span><span class="nt">&gt;</span>One #00 Phillips screw with a large head near the headphone jack.<span class="nt">&lt;/line&gt;</span>
+            <span class="nt">&lt;line</span> <span class="na">bullet=</span><span class="s">&quot;orange&quot;</span> <span class="na">level=</span><span class="s">&quot;1&quot;</span><span class="nt">&gt;</span>One #00 Phillips screw with a smaller head near the side of the iPod. This screw strips easily, so be sure to press down firmly on the screwdriver.<span class="nt">&lt;/line&gt;</span>
+         <span class="nt">&lt;/lines&gt;</span>
+         <span class="nt">&lt;images&gt;</span>
+            <span class="nt">&lt;image</span> <span class="na">guid=</span><span class="s">&quot;TFCKijfJ5fo2IADd&quot;</span> <span class="na">id=</span><span class="s">&quot;1801&quot;</span> <span class="na">orderby=</span><span class="s">&quot;1&quot;</span><span class="nt">&gt;</span>http://nwelch.cominor.com/igi/TFCKijfJ5fo2IADd<span class="nt">&lt;/image&gt;</span>
+         <span class="nt">&lt;/images&gt;</span>
+      <span class="nt">&lt;/step&gt;</span>
+      <span class="nt">&lt;step</span> <span class="na">number=</span><span class="s">&quot;4&quot;</span> <span class="na">title=</span><span class="s">&quot;&quot;</span><span class="nt">&gt;</span>
+         <span class="nt">&lt;lines&gt;</span>
+            <span class="nt">&lt;line</span> <span class="na">bullet=</span><span class="s">&quot;black&quot;</span> <span class="na">level=</span><span class="s">&quot;0&quot;</span><span class="nt">&gt;</span>Use a metal spudger to carefully pry the headphone jack out of the casing. DO NOT remove the headphone jack from the iPod entirely, as it is connected via a fragile ribbon connector to the click wheel.<span class="nt">&lt;/line&gt;</span>
+         <span class="nt">&lt;/lines&gt;</span>
+         <span class="nt">&lt;images&gt;</span>
+            <span class="nt">&lt;image</span> <span class="na">guid=</span><span class="s">&quot;nVHmgObvCQ4JgWAp&quot;</span> <span class="na">id=</span><span class="s">&quot;1802&quot;</span> <span class="na">orderby=</span><span class="s">&quot;1&quot;</span><span class="nt">&gt;</span>http://nwelch.cominor.com/igi/nVHmgObvCQ4JgWAp<span class="nt">&lt;/image&gt;</span>
+         <span class="nt">&lt;/images&gt;</span>
+      <span class="nt">&lt;/step&gt;</span>
+      <span class="nt">&lt;step</span> <span class="na">number=</span><span class="s">&quot;5&quot;</span> <span class="na">title=</span><span class="s">&quot;&quot;</span><span class="nt">&gt;</span>
+         <span class="nt">&lt;lines&gt;</span>
+            <span class="nt">&lt;line</span> <span class="na">bullet=</span><span class="s">&quot;black&quot;</span> <span class="na">level=</span><span class="s">&quot;0&quot;</span><span class="nt">&gt;</span>Slide the headphone jack out until the white plastic housing is no longer held in place by the metal casing.<span class="nt">&lt;/line&gt;</span>
+         <span class="nt">&lt;/lines&gt;</span>
+         <span class="nt">&lt;images&gt;</span>
+            <span class="nt">&lt;image</span> <span class="na">guid=</span><span class="s">&quot;X1m2sdcc2FLBg4R3&quot;</span> <span class="na">id=</span><span class="s">&quot;1803&quot;</span> <span class="na">orderby=</span><span class="s">&quot;1&quot;</span><span class="nt">&gt;</span>http://nwelch.cominor.com/igi/X1m2sdcc2FLBg4R3<span class="nt">&lt;/image&gt;</span>
+         <span class="nt">&lt;/images&gt;</span>
+      <span class="nt">&lt;/step&gt;</span>
+      <span class="nt">&lt;step</span> <span class="na">number=</span><span class="s">&quot;6&quot;</span> <span class="na">title=</span><span class="s">&quot;&quot;</span><span class="nt">&gt;</span>
+         <span class="nt">&lt;lines&gt;</span>
+            <span class="nt">&lt;line</span> <span class="na">bullet=</span><span class="s">&quot;black&quot;</span> <span class="na">level=</span><span class="s">&quot;0&quot;</span><span class="nt">&gt;</span>Remove the newly-revealed Phillips #00 screw from beneath the headphone jack.<span class="nt">&lt;/line&gt;</span>
+         <span class="nt">&lt;/lines&gt;</span>
+         <span class="nt">&lt;images&gt;</span>
+            <span class="nt">&lt;image</span> <span class="na">guid=</span><span class="s">&quot;nOSSG6Nsi3qweRB1&quot;</span> <span class="na">id=</span><span class="s">&quot;1804&quot;</span> <span class="na">orderby=</span><span class="s">&quot;1&quot;</span><span class="nt">&gt;</span>http://nwelch.cominor.com/igi/nOSSG6Nsi3qweRB1<span class="nt">&lt;/image&gt;</span>
+         <span class="nt">&lt;/images&gt;</span>
+      <span class="nt">&lt;/step&gt;</span>
+      <span class="nt">&lt;step</span> <span class="na">number=</span><span class="s">&quot;7&quot;</span> <span class="na">title=</span><span class="s">&quot;&quot;</span><span class="nt">&gt;</span>
+         <span class="nt">&lt;lines&gt;</span>
+            <span class="nt">&lt;line</span> <span class="na">bullet=</span><span class="s">&quot;black&quot;</span> <span class="na">level=</span><span class="s">&quot;0&quot;</span><span class="nt">&gt;</span>Lift the bottom bezel bracket out of the iPod.<span class="nt">&lt;/line&gt;</span>
+         <span class="nt">&lt;/lines&gt;</span>
+         <span class="nt">&lt;images&gt;</span>
+            <span class="nt">&lt;image</span> <span class="na">guid=</span><span class="s">&quot;SjVEOuRyNifK2QdQ&quot;</span> <span class="na">id=</span><span class="s">&quot;1805&quot;</span> <span class="na">orderby=</span><span class="s">&quot;1&quot;</span><span class="nt">&gt;</span>http://nwelch.cominor.com/igi/SjVEOuRyNifK2QdQ<span class="nt">&lt;/image&gt;</span>
+         <span class="nt">&lt;/images&gt;</span>
+      <span class="nt">&lt;/step&gt;</span>
+   <span class="nt">&lt;/steps&gt;</span>
+   <span class="nt">&lt;conclusion&gt;&lt;p&gt;</span>To reassemble your device, follow these instructions in reverse order.<span class="nt">&lt;/p&gt;&lt;/conclusion&gt;</span>
+<span class="nt">&lt;/guide&gt;</span>
+</pre></div>
+
+<!-- END CODE -->
          </div>
 
          <div class="footer">Open Manual Project is an open source standard being developed by a <a href="about.html">small group</a> of dedicated individuals.</div>
