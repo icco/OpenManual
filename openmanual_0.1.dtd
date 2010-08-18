@@ -1,0 +1,55 @@
+<!ELEMENT a ( #PCDATA ) >
+<!ATTLIST a href CDATA #REQUIRED >
+<!ATTLIST a rel NMTOKEN #REQUIRED >
+
+<!ELEMENT author ( #PCDATA ) >
+
+<!ELEMENT difficulty ( #PCDATA ) >
+
+<!ELEMENT flag ( #PCDATA ) >
+<!ATTLIST flag title CDATA #REQUIRED >
+
+<!ELEMENT flags ( flag+ ) >
+
+<!ELEMENT guide ( meta, steps, tools, parts, flags ) >
+
+<!ELEMENT id ( #PCDATA ) >
+
+<!ELEMENT image ( #PCDATA ) >
+<!ATTLIST image guid NMTOKEN #REQUIRED >
+<!ATTLIST image imageid NMTOKEN #REQUIRED >
+<!ATTLIST image orderby ( 1 | 2 ) #REQUIRED >
+
+<!ELEMENT images ( image+ ) >
+
+<!ELEMENT introduction ( p+ ) >
+
+<!ELEMENT line ( #PCDATA | a | strong )* >
+<!ATTLIST line bullet ( black | icon_caution | icon_note ) #REQUIRED >
+<!ATTLIST line level ( 0 | 1 ) #REQUIRED >
+
+<!ELEMENT lines ( line+ ) >
+
+<!ELEMENT locale ( #PCDATA ) >
+
+<!ELEMENT meta ( title, id, locale, author, time, difficulty, introduction ) >
+
+<!ELEMENT p ( #PCDATA ) >
+
+<!ELEMENT parts EMPTY >
+
+<!ELEMENT step ( lines, images ) >
+<!ATTLIST step number NMTOKEN #REQUIRED >
+
+<!ELEMENT steps ( step+ ) >
+
+<!ELEMENT strong ( #PCDATA ) >
+
+<!ELEMENT time EMPTY >
+
+<!ELEMENT title ( #PCDATA ) >
+
+<!ELEMENT tool ( #PCDATA ) >
+
+<!ELEMENT tools ( tool+ ) >
+

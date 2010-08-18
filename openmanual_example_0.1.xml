@@ -1,0 +1,165 @@
+<?xml version="1.0"?>
+<!DOCTYPE guide PUBLIC "guide" "http://www.ifixit.com/guide.dtd">
+<guide id="413" locale="en">
+   <title subject="Hard Drive Cable" type="installation">Installing iPod Mini Hard Drive Cable</title>
+   <summary />
+   <image guid="AgLTBF3ZLEvBKnOB" id="1775">http://nwelch.cominor.com/igi/AgLTBF3ZLEvBKnOB</image>
+   <author id="1">iRobot</author>
+   <time_required />
+   <difficulty>Moderate</difficulty>
+   <categories>
+      <category>iPod Mini</category>
+   </categories>
+   <introduction><p>Connects the hard drive to the logic board.</p></introduction>
+   <tools>
+      <tool thumbnail="http://cart-products.ifixit.net/cart-products/GGXkxBRrmZg6iRdE.mini.jpg" url="http://nwelch.cominor.com/Tools/Phillips-00-Screwdriver/IF145-006">Phillips #00 Screwdriver</tool>
+      <tool url="http://nwelch.cominor.com/Tools/Flathead-3-32-Inch-Screwdriver/IF145-011">Small Flathead Screwdriver</tool>
+      <tool thumbnail="http://cart-products.ifixit.net/cart-products/lA2kL1NUD3IvKNhV.mini.jpg" url="http://nwelch.cominor.com/Tools/Spudger/IF145-002">Spudger</tool>
+   </tools>
+   <parts>
+      <part thumbnail="http://cart-products.ifixit.net/cart-products/lBv4KfDMEHlQy6sJ.mini.jpg" url="http://nwelch.cominor.com/iPod-Parts/iPod-Mini-Hard-Drive-Cable/IF196-010">iPod Mini Hard Drive Cable</part>
+   </parts>
+   <flags />
+   <documents />
+   <prerequisites>
+      <prerequisite id="407" locale="en">Installing iPod Mini Top Bezel</prerequisite>
+      <prerequisite id="408" locale="en">Installing iPod Mini Bottom Bezel</prerequisite>
+      <prerequisite id="412" locale="en">Installing iPod Mini Hard Drive</prerequisite>
+   </prerequisites>
+   <steps>
+      <step number="1" title="">
+         <lines>
+            <line bullet="icon_note" level="0">Before opening your iPod, ensure that the hold switch is in the locked position.</line>
+         </lines>
+         <images>
+            <image guid="vNNW5HEbOIm6FvDI" id="1744" orderby="1">http://nwelch.cominor.com/igi/vNNW5HEbOIm6FvDI</image>
+         </images>
+      </step>
+      <step number="2" title="test">
+         <lines>
+            <line bullet="black" level="0">Carefully insert a small flathead screwdriver in the seam between the metal casing and white plastic top. Use the screwdriver to pry up the white plastic top bezel. Be careful not to damage the soft plastic with your screwdriver.</line>
+            <line bullet="icon_note" level="0">The top bezel is held on with an adhesive, so it may be necessary to pry up in several different locations to free the part.</line>
+            <line bullet="black" level="0">To make this job easier, heat up the adhesive with a hairdryer on low heat for a few seconds.</line>
+         </lines>
+         <images>
+            <image guid="ZXkcuyTsDJVZLZru" id="1745" orderby="1">http://nwelch.cominor.com/igi/ZXkcuyTsDJVZLZru</image>
+         </images>
+      </step>
+      <step number="3" title="">
+         <lines>
+            <line bullet="black" level="0">Lift the top bezel off of the iPod.</line>
+         </lines>
+         <images>
+            <image guid="mTMHBGo2Bswvagrd" id="1746" orderby="1">http://nwelch.cominor.com/igi/mTMHBGo2Bswvagrd</image>
+         </images>
+      </step>
+      <step number="4" title="">
+         <lines>
+            <line bullet="black" level="0">Carefully insert a small flathead screwdriver in the seam between the metal casing and white plastic bottom Use the screwdriver to pry up the white plastic bottom bezel. Be careful not to damage the soft plastic with your screwdriver.</line>
+         </lines>
+         <images>
+            <image guid="64orHJOkjncKWkE5" id="1747" orderby="1">http://nwelch.cominor.com/igi/64orHJOkjncKWkE5</image>
+         </images>
+      </step>
+      <step number="5" title="">
+         <lines>
+            <line bullet="black" level="0">A small pair of snap ring pliers is the easiest tool to remove the metal retaining bracket.</line>
+            <line bullet="black" level="0">You can also use a flathead screwdriver to pry out the metal retaining bracket beneath the bottom bezel as shown. You can free the bracket by first pushing in the metal arms on the corners and then lifting the bracket.</line>
+         </lines>
+         <images>
+            <image guid="vhqerDqLcLqmyc5S" id="1748" orderby="1">http://nwelch.cominor.com/igi/vhqerDqLcLqmyc5S</image>
+         </images>
+      </step>
+      <step number="6" title="">
+         <lines>
+            <line bullet="black" level="0">Lift the metal retaining bracket out of the iPod.</line>
+         </lines>
+         <images>
+            <image guid="YLtjQ6AqEsDF2DfT" id="1749" orderby="1">http://nwelch.cominor.com/igi/YLtjQ6AqEsDF2DfT</image>
+         </images>
+      </step>
+      <step number="7" title="">
+         <lines>
+            <line bullet="black" level="0">Use a spudger or the tip of your finger to carefully disconect the orange click wheel ribbon from the logic board.</line>
+         </lines>
+         <images>
+            <image guid="sGdyA53vq1EVvoWn" id="1768" orderby="1">http://nwelch.cominor.com/igi/sGdyA53vq1EVvoWn</image>
+         </images>
+      </step>
+      <step number="8" title="">
+         <lines>
+            <line bullet="black" level="0">Remove the two #00 Phillips screws securing the headphone jack to the casing.</line>
+         </lines>
+         <images>
+            <image guid="SpBcGgI3neI6finU" id="1769" orderby="1">http://nwelch.cominor.com/igi/SpBcGgI3neI6finU</image>
+         </images>
+      </step>
+      <step number="9" title="">
+         <lines>
+            <line bullet="black" level="0">Carefully slide the iPod out of its casing by pushing on the logic board near the bottom edge of the click wheel.</line>
+            <line bullet="icon_note" level="0">Do not pull on the headphone jack board at the top of the iPod, as the connector to the logic board is fragile.</line>
+         </lines>
+         <images>
+            <image guid="CLp2g21xPVwPuZxY" id="1770" orderby="1">http://nwelch.cominor.com/igi/CLp2g21xPVwPuZxY</image>
+         </images>
+      </step>
+      <step number="10" title="">
+         <lines>
+            <line bullet="black" level="0">After pushing the logic board out sufficiently, gently grasp the logic board on either side of the display, and continue to slide the iPod out of its casing.</line>
+         </lines>
+         <images>
+            <image guid="lCGvtIanOnHiZkaf" id="1771" orderby="1">http://nwelch.cominor.com/igi/lCGvtIanOnHiZkaf</image>
+         </images>
+      </step>
+      <step number="11" title="">
+         <lines>
+            <line bullet="black" level="0">Lift the battery off of the logic board and lay it to the side of the iPod.</line>
+         </lines>
+         <images>
+            <image guid="omybxtlHQCqD6W66" id="1772" orderby="1">http://nwelch.cominor.com/igi/omybxtlHQCqD6W66</image>
+         </images>
+      </step>
+      <step number="12" title="">
+         <lines>
+            <line bullet="black" level="0">Use a spudger or the tip of your finger to carefully disconect the orange hard drive ribbon from the logic board.</line>
+         </lines>
+         <images>
+            <image guid="UKHcTyfEC4NOEvWV" id="1773" orderby="1">http://nwelch.cominor.com/igi/UKHcTyfEC4NOEvWV</image>
+         </images>
+      </step>
+      <step number="13" title="">
+         <lines>
+            <line bullet="black" level="0">Lift the hard drive out of the iPod.</line>
+         </lines>
+         <images>
+            <image guid="srDBqmcCElIgVuEZ" id="1774" orderby="1">http://nwelch.cominor.com/igi/srDBqmcCElIgVuEZ</image>
+         </images>
+      </step>
+      <step number="14" title="">
+         <lines>
+            <line bullet="black" level="0">Peel back the black tape securing the two blue bumpers to the hard drive near the orange ribbon cable.</line>
+         </lines>
+         <images>
+            <image guid="AgLTBF3ZLEvBKnOB" id="1775" orderby="1">http://nwelch.cominor.com/igi/AgLTBF3ZLEvBKnOB</image>
+         </images>
+      </step>
+      <step number="15" title="">
+         <lines>
+            <line bullet="black" level="0">Slide the two blue bumpers off the corners of the hard drive. There is no need to remove these bumpers entirely.</line>
+         </lines>
+         <images>
+            <image guid="ewoYSmYlHjNVByDA" id="1776" orderby="1">http://nwelch.cominor.com/igi/ewoYSmYlHjNVByDA</image>
+         </images>
+      </step>
+      <step number="16" title="">
+         <lines>
+            <line bullet="black" level="0">Carefully disconnect the orange hard drive ribbon cable from the hard drive. Be sure to apply even pressure while pulling to prevent any bent pins.</line>
+            <line bullet="icon_note" level="0">If the cable doesn't come free easily, you may be able to free it by gently rocking the ribbon cable back and forth.</line>
+         </lines>
+         <images>
+            <image guid="nGAJsxREaPNVrThK" id="1777" orderby="1">http://nwelch.cominor.com/igi/nGAJsxREaPNVrThK</image>
+         </images>
+      </step>
+   </steps>
+   <conclusion><p>To reassemble your device, follow these instructions in reverse order.</p></conclusion>
+</guide>
