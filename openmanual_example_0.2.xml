@@ -1,139 +1,93 @@
 <?xml version="1.0"?>
-<!-- <!DOCTYPE guide PUBLIC "guide" "http://www.ifixit.com/guide.dtd"> -->
-<guide>
-   <meta>
-      <title>My Robot, Makey Teardown</title>
-      <id>1018</id>
-      <locale>en</locale>
-      <author>makermedia</author>
-      <time />
-      <difficulty>Moderate</difficulty>
-      <introduction><p>I’ve made some fun robots, but I never liked the way they look, with their parts stacked up, and black tape and visible wires running everywhere. I decided to build a bot that combined tried-and-true workings with some Hollywood bling. I sketched some ideas, and this is the one that spoke to me.</p>
-
-<p>Makey is an autonomous robot that I’ve programmed to follow objects around. It uses tank steering, aka differential drive, where separate DC motors power each of the 2 drive wheels. A servomotor moves its head, which carries a single ultrasonic rangefinder. Control comes from an Arduino microcontroller, which I’ve programmed to do object following and obstacle avoidance. With these behaviors, Makey constantly turns its head right and left to acquire differential ranging data, adding to its personality.</p>
-
-<p>The chassis design is unusual in that there are no exposed components; I vowed to keep everything enclosed, which made the design harder, but it was worth it.</p>
-
-<p>With different Arduino programming, the hardware would support mapping and other activities, and with a few hardware mods, Makey could also compete in Mini-Sumo, one of the most popular events in robotics competitions.</p></introduction>
-   </meta>
+<!DOCTYPE guide PUBLIC "guide" "http://www.ifixit.com/guide.dtd">
+<guide id="419" locale="en">
+   <title subject="Bottom Bezel Bracket" type="installation">Installing iPod Nano 2nd Generation Bottom Bezel Bracket</title>
+   <summary>This is a summary. It is less than 255 characters.</summary>
+   <image guid="TFCKijfJ5fo2IADd" id="1801">http://nwelch.cominor.com/igi/TFCKijfJ5fo2IADd</image>
+   <author id="1">iRobot</author>
+   <time_required>10 minutes</time_required>
+   <difficulty>Difficult</difficulty>
+   <categories>
+      <category>iPod Nano 2nd Generation</category>
+   </categories>
+   <introduction><p>The metal bracket within your iPod.</p></introduction>
+   <tools>
+      <tool thumbnail="http://cart-products.ifixit.net/cart-products/GtpNGCPhUURCXnXL.mini.jpg" url="http://nwelch.cominor.com/Tools/Metal-Spudger/IF145-012">Metal Spudger</tool>
+      <tool thumbnail="http://cart-products.ifixit.net/cart-products/GGXkxBRrmZg6iRdE.mini.jpg" url="http://nwelch.cominor.com/Tools/Phillips-00-Screwdriver/IF145-006">Phillips #00 Screwdriver</tool>
+      <tool url="http://nwelch.cominor.com/Item/Plastic_Opening_Tools">Plastic Opening Tools</tool>
+   </tools>
+   <parts>
+      <part thumbnail="http://cart-products.ifixit.net/cart-products/CPiMKmSYDDea2nu1.mini.jpg" url="http://nwelch.cominor.com/iPod-Parts/iPod-Nano-Gen-2-Bottom-Bezel-Bracket/IF199-006">iPod Nano Gen 2 Bottom Bezel Bracket</part>
+   </parts>
+   <flags />
+   <documents>
+      <document id="138" url="http://cominor-documents.s3.amazonaws.com/UxujoG1XDgJ5qnRq.pdf">About-Stacks.pdf</document>
+   </documents>
+   <prerequisites>
+      <prerequisite id="418" locale="en">Installing iPod Nano 2nd Generation Bottom Bezel</prerequisite>
+   </prerequisites>
    <steps>
-      <step number="1">
+      <step number="1" title="">
          <lines>
-            <line bullet="black" level="0"><strong> Make the Body:</strong>
-
-The body consists of 2 pieces of sheet aluminum. You can cut, drill, and bend one piece at a time, or do both at once to minimize switching tool stations.</line>
-            <line bullet="black" level="0">Download the <a href="http://makezine.com/19/makey" rel="nofollow">5 Makey templates</a> and print them out full-size. Cut out the base-cutting template, and cut holes in the blank area of each panel. Securely tape the template to the aluminum sheet with double-stick tape on the back and regular tape over the holes.</line>
+            <line bullet="icon_note" level="0">Before opening your iPod, ensure that the hold switch is in the locked position.</line>
          </lines>
          <images>
-            <image guid="pdhDIBGi6UlQHmv3" imageid="11025" orderby="1">/igi/pdhDIBGi6UlQHmv3</image>
+            <image guid="NsEmgggSmqUmqyhX" id="1799" orderby="1">http://nwelch.cominor.com/igi/NsEmgggSmqUmqyhX</image>
          </images>
       </step>
-      <step number="2">
+      <step number="2" title="">
          <lines>
-            <line bullet="icon_caution" level="0"><strong>CAUTION:</strong> Always wear protective eyewear when cutting metal.</line>
-            <line bullet="black" level="0">With a band saw, cut the aluminum roughly to size around the template, then cut the perimeter just outside the lines.</line>
-            <line bullet="icon_note" level="0"><strong>TIP:</strong> For inside corners, first cut a gradual curve close to the corner, then back up and cut into the corner’s point from each direction.</line>
+            <line bullet="icon_caution" level="0">When removing the the bottom bezel, be sure not to bend the plastic surrounding the dock connector.</line>
+            <line bullet="black" level="0">Carefully insert an iPod opening tool in the seam between the metal casing and white plastic bezel</line>
+            <line bullet="black" level="0">Lift the bottom bezel off the iPod. It's glued on using a mild adhesive, so some force may be required.</line>
          </lines>
          <images>
-            <image guid="wJA1iub5nKAQn4WV" imageid="11028" orderby="1">/igi/wJA1iub5nKAQn4WV</image>
+            <image guid="KmjiobyZTwMW2ZPM" id="1800" orderby="1">http://nwelch.cominor.com/igi/KmjiobyZTwMW2ZPM</image>
          </images>
       </step>
-      <step number="3">
+      <step number="3" title="">
          <lines>
-            <line bullet="black" level="0">Use a center punch and small hammer to punch through the template at the 17 crosshairs (for drilling in the next step) and at the corners of the rectangles around the large holes.</line>
+            <line bullet="black" level="0">Remove the following two screws:</line>
+            <line bullet="red" level="1">One #00 Phillips screw with a large head near the headphone jack.</line>
+            <line bullet="orange" level="1">One #00 Phillips screw with a smaller head near the side of the iPod. This screw strips easily, so be sure to press down firmly on the screwdriver.</line>
          </lines>
          <images>
-            <image guid="1vMYJOTns2GvSkoI" imageid="11248" orderby="1">/igi/1vMYJOTns2GvSkoI</image>
+            <image guid="TFCKijfJ5fo2IADd" id="1801" orderby="1">http://nwelch.cominor.com/igi/TFCKijfJ5fo2IADd</image>
          </images>
       </step>
-      <step number="4">
+      <step number="4" title="">
          <lines>
-            <line bullet="black" level="0">Drill the holes at the crosshairs following the sizes marked on the template. Remove (but keep) the paper first, to line up on the punch marks more accurately. Clamp the metal tightly onto scrap wood, and wherever possible use the unibit, which makes cleaner holes in thin metal than a twist drill. For the starter holes inside the rectangles, you may need to adjust the diameter smaller or larger to reach the rectangle edges.</line>
+            <line bullet="black" level="0">Use a metal spudger to carefully pry the headphone jack out of the casing. DO NOT remove the headphone jack from the iPod entirely, as it is connected via a fragile ribbon connector to the click wheel.</line>
          </lines>
          <images>
-            <image guid="FaRM3fQDwRAXkh1Z" imageid="11030" orderby="1">/igi/FaRM3fQDwRAXkh1Z</image>
+            <image guid="nVHmgObvCQ4JgWAp" id="1802" orderby="1">http://nwelch.cominor.com/igi/nVHmgObvCQ4JgWAp</image>
          </images>
       </step>
-      <step number="5">
+      <step number="5" title="">
          <lines>
-            <line bullet="black" level="0">Finish the rectangular holes with the nibbler tool, cutting away until a rectangle appears. If you want, you can retape the template to see the rectangles more clearly. Then file the edges smooth.</line>
-            <line bullet="black" level="0">Use a handheld deburring tool to remove burrs from the metal’s edges. To deburr the small holes, push the point of a larger drill bit over the holes and twist it by hand.</line>
+            <line bullet="black" level="0">Slide the headphone jack out until the white plastic housing is no longer held in place by the metal casing.</line>
          </lines>
          <images>
-            <image guid="UoVWs2rLj2Sux5Jb" imageid="11250" orderby="1">/igi/UoVWs2rLj2Sux5Jb</image>
-            <image guid="mLHrshJGtRTNolXf" imageid="11202" orderby="2">/igi/mLHrshJGtRTNolXf</image>
+            <image guid="X1m2sdcc2FLBg4R3" id="1803" orderby="1">http://nwelch.cominor.com/igi/X1m2sdcc2FLBg4R3</image>
          </images>
       </step>
-      <step number="6">
+      <step number="6" title="">
          <lines>
-            <line bullet="black" level="0">Cut out the base bending template and attach it to the other side of the aluminum with double-stick tape, aligning the holes and rectangles.</line>
-            <line bullet="black" level="1">Insert the metal in the brake with the new template facing up, and make all indicated bends at 90°.</line>
-            <line bullet="black" level="1">For each bend, go up gradually, using a drafting square between small bends to check the angle.</line>
-            <line bullet="icon_note" level="1">First bend the tabs on each long side of the metal, then bend up the sides of the body.</line>
+            <line bullet="black" level="0">Remove the newly-revealed Phillips #00 screw from beneath the headphone jack.</line>
          </lines>
          <images>
-            <image guid="UUO1l2OTg3aNA215" imageid="11252" orderby="1">/igi/UUO1l2OTg3aNA215</image>
-            <image guid="gNxPraeWuoXZ6BQJ" imageid="11208" orderby="2">/igi/gNxPraeWuoXZ6BQJ</image>
+            <image guid="nOSSG6Nsi3qweRB1" id="1804" orderby="1">http://nwelch.cominor.com/igi/nOSSG6Nsi3qweRB1</image>
          </images>
       </step>
-      <step number="7">
+      <step number="7" title="">
          <lines>
-            <line bullet="black" level="0"><strong>Add the Drivetrain</strong></line>
-            <line bullet="black" level="0">Mount the drive motors in the base using 4-40×1” screws through the small holes.</line>
-            <line bullet="icon_note" level="1">The motor shafts should poke out of the larger holes.</line>
-            <line bullet="black" level="0">Secure the screws with lock washers and nuts on the motor side. The base is small, so you may need needlenose pliers for tightening.</line>
-            <line bullet="icon_note" level="1">The base is small, so you may need needlenose pliers for tightening.</line>
+            <line bullet="black" level="0">Lift the bottom bezel bracket out of the iPod.</line>
          </lines>
          <images>
-            <image guid="OPG54iChiywuWmYw" imageid="11038" orderby="1">/igi/OPG54iChiywuWmYw</image>
-         </images>
-      </step>
-      <step number="8">
-         <lines>
-            <line bullet="black" level="0">Use a 2” hole saw in a drill press to cut wheels out of some scrap wood. I used 1×8 shelving and my finished wheels were ¾” thick by about 1.8” in diameter.</line>
-            <line bullet="icon_caution" level="0">Clamp the wood, and go slowly to avoid stalling the drill press.</line>
-            <line bullet="black" level="0">Drill through 2 opposing holes in the hub with a #43 drill, then use a 4-40 tap to create threads in each hole.</line>
-            <line bullet="black" level="0">Center a wheel hub on each wooden wheel and use a small nail to mark 2 of the hole locations. Drill through the locations with a 1” drill.</line>
-         </lines>
-         <images>
-            <image guid="jjwyYfYdQqSfLKMV" imageid="11289" orderby="1">/igi/jjwyYfYdQqSfLKMV</image>
-            <image guid="ZELKeGoZUDDOBVO1" imageid="11205" orderby="2">/igi/ZELKeGoZUDDOBVO1</image>
-         </images>
-      </step>
-      <step number="9">
-         <lines>
-            <line bullet="black" level="0">Paint the wheels. I love the Rust-Oleum red gloss; it is super thick, brightly colored, covers great, and cleans up easily.</line>
-            <line bullet="icon_note" level="0">Try not to get too much paint in the mounting holes.</line>
-            <line bullet="black" level="0">Use two 4-40×1” screws to attach the wheels to the hubs from the outside.</line>
-            <line bullet="icon_caution" level="0">Don’t overtighten.</line>
-         </lines>
-         <images>
-            <image guid="ubfyFJmQqL1eiKmV" imageid="11257" orderby="1">/igi/ubfyFJmQqL1eiKmV</image>
-         </images>
-      </step>
-      <step number="10">
-         <lines>
-            <line bullet="black" level="0">Install tires on the wheels, orienting them with the larger diameter facing out. Then snap each wheel assembly into its motor shaft. Attach the skidder to the bottom of the base using the screws, nuts, and the thinner of the 2 spacers it comes with.</line>
-         </lines>
-         <images>
-            <image guid="1XqL2QidRcZieG5U" imageid="11209" orderby="1">/igi/1XqL2QidRcZieG5U</image>
-            <image guid="PTNun1Ka25KVALni" imageid="11259" orderby="2">/igi/PTNun1Ka25KVALni</image>
+            <image guid="SjVEOuRyNifK2QdQ" id="1805" orderby="1">http://nwelch.cominor.com/igi/SjVEOuRyNifK2QdQ</image>
          </images>
       </step>
    </steps>
-   <tools>
-      <tool>#43 drill bit</tool>
-      <tool>9" bandsaw with  1" metal cutting blade</tool>
-      <tool>18" bending brake Harbor Freight #39103-8VGA,</tool>
-      <tool>Drill press with vise clamp and scrap wood block</tool>
-      <tool>Fractional drill bit set</tool>
-      <tool>Nibbler tool  Jameco #18810</tool>
-      <tool>Step drill, aka unibit, Harbor Freight #91616-0VGA</tool>
-   </tools>
-   <parts />
-   <flags>
-      <flag title="In Progress">This guide is currently being written. Reload periodically to see the latest changes.</flag>
-      <flag title="Unpublished">This guide will not appear in search results but can still be viewed by anyone!</flag>
-      <flag title="User-Contributed Guide">This guide is not managed by iFixit staff.</flag>
-   </flags>
+   <conclusion><p>To reassemble your device, follow these instructions in reverse order.</p></conclusion>
 </guide>
+
