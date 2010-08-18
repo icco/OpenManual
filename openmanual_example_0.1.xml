@@ -1,165 +1,139 @@
 <?xml version="1.0"?>
-<!DOCTYPE guide PUBLIC "guide" "http://www.ifixit.com/guide.dtd">
-<guide id="413" locale="en">
-   <title subject="Hard Drive Cable" type="installation">Installing iPod Mini Hard Drive Cable</title>
-   <summary />
-   <image guid="AgLTBF3ZLEvBKnOB" id="1775">http://nwelch.cominor.com/igi/AgLTBF3ZLEvBKnOB</image>
-   <author id="1">iRobot</author>
-   <time_required />
-   <difficulty>Moderate</difficulty>
-   <categories>
-      <category>iPod Mini</category>
-   </categories>
-   <introduction><p>Connects the hard drive to the logic board.</p></introduction>
-   <tools>
-      <tool thumbnail="http://cart-products.ifixit.net/cart-products/GGXkxBRrmZg6iRdE.mini.jpg" url="http://nwelch.cominor.com/Tools/Phillips-00-Screwdriver/IF145-006">Phillips #00 Screwdriver</tool>
-      <tool url="http://nwelch.cominor.com/Tools/Flathead-3-32-Inch-Screwdriver/IF145-011">Small Flathead Screwdriver</tool>
-      <tool thumbnail="http://cart-products.ifixit.net/cart-products/lA2kL1NUD3IvKNhV.mini.jpg" url="http://nwelch.cominor.com/Tools/Spudger/IF145-002">Spudger</tool>
-   </tools>
-   <parts>
-      <part thumbnail="http://cart-products.ifixit.net/cart-products/lBv4KfDMEHlQy6sJ.mini.jpg" url="http://nwelch.cominor.com/iPod-Parts/iPod-Mini-Hard-Drive-Cable/IF196-010">iPod Mini Hard Drive Cable</part>
-   </parts>
-   <flags />
-   <documents />
-   <prerequisites>
-      <prerequisite id="407" locale="en">Installing iPod Mini Top Bezel</prerequisite>
-      <prerequisite id="408" locale="en">Installing iPod Mini Bottom Bezel</prerequisite>
-      <prerequisite id="412" locale="en">Installing iPod Mini Hard Drive</prerequisite>
-   </prerequisites>
+<!-- <!DOCTYPE guide PUBLIC "guide" "http://www.ifixit.com/guide.dtd"> -->
+<guide>
+   <meta>
+      <title>My Robot, Makey Teardown</title>
+      <id>1018</id>
+      <locale>en</locale>
+      <author>makermedia</author>
+      <time />
+      <difficulty>Moderate</difficulty>
+      <introduction><p>I’ve made some fun robots, but I never liked the way they look, with their parts stacked up, and black tape and visible wires running everywhere. I decided to build a bot that combined tried-and-true workings with some Hollywood bling. I sketched some ideas, and this is the one that spoke to me.</p>
+
+<p>Makey is an autonomous robot that I’ve programmed to follow objects around. It uses tank steering, aka differential drive, where separate DC motors power each of the 2 drive wheels. A servomotor moves its head, which carries a single ultrasonic rangefinder. Control comes from an Arduino microcontroller, which I’ve programmed to do object following and obstacle avoidance. With these behaviors, Makey constantly turns its head right and left to acquire differential ranging data, adding to its personality.</p>
+
+<p>The chassis design is unusual in that there are no exposed components; I vowed to keep everything enclosed, which made the design harder, but it was worth it.</p>
+
+<p>With different Arduino programming, the hardware would support mapping and other activities, and with a few hardware mods, Makey could also compete in Mini-Sumo, one of the most popular events in robotics competitions.</p></introduction>
+   </meta>
    <steps>
-      <step number="1" title="">
+      <step number="1">
          <lines>
-            <line bullet="icon_note" level="0">Before opening your iPod, ensure that the hold switch is in the locked position.</line>
+            <line bullet="black" level="0"><strong> Make the Body:</strong>
+
+The body consists of 2 pieces of sheet aluminum. You can cut, drill, and bend one piece at a time, or do both at once to minimize switching tool stations.</line>
+            <line bullet="black" level="0">Download the <a href="http://makezine.com/19/makey" rel="nofollow">5 Makey templates</a> and print them out full-size. Cut out the base-cutting template, and cut holes in the blank area of each panel. Securely tape the template to the aluminum sheet with double-stick tape on the back and regular tape over the holes.</line>
          </lines>
          <images>
-            <image guid="vNNW5HEbOIm6FvDI" id="1744" orderby="1">http://nwelch.cominor.com/igi/vNNW5HEbOIm6FvDI</image>
+            <image guid="pdhDIBGi6UlQHmv3" imageid="11025" orderby="1">/igi/pdhDIBGi6UlQHmv3</image>
          </images>
       </step>
-      <step number="2" title="test">
+      <step number="2">
          <lines>
-            <line bullet="black" level="0">Carefully insert a small flathead screwdriver in the seam between the metal casing and white plastic top. Use the screwdriver to pry up the white plastic top bezel. Be careful not to damage the soft plastic with your screwdriver.</line>
-            <line bullet="icon_note" level="0">The top bezel is held on with an adhesive, so it may be necessary to pry up in several different locations to free the part.</line>
-            <line bullet="black" level="0">To make this job easier, heat up the adhesive with a hairdryer on low heat for a few seconds.</line>
+            <line bullet="icon_caution" level="0"><strong>CAUTION:</strong> Always wear protective eyewear when cutting metal.</line>
+            <line bullet="black" level="0">With a band saw, cut the aluminum roughly to size around the template, then cut the perimeter just outside the lines.</line>
+            <line bullet="icon_note" level="0"><strong>TIP:</strong> For inside corners, first cut a gradual curve close to the corner, then back up and cut into the corner’s point from each direction.</line>
          </lines>
          <images>
-            <image guid="ZXkcuyTsDJVZLZru" id="1745" orderby="1">http://nwelch.cominor.com/igi/ZXkcuyTsDJVZLZru</image>
+            <image guid="wJA1iub5nKAQn4WV" imageid="11028" orderby="1">/igi/wJA1iub5nKAQn4WV</image>
          </images>
       </step>
-      <step number="3" title="">
+      <step number="3">
          <lines>
-            <line bullet="black" level="0">Lift the top bezel off of the iPod.</line>
+            <line bullet="black" level="0">Use a center punch and small hammer to punch through the template at the 17 crosshairs (for drilling in the next step) and at the corners of the rectangles around the large holes.</line>
          </lines>
          <images>
-            <image guid="mTMHBGo2Bswvagrd" id="1746" orderby="1">http://nwelch.cominor.com/igi/mTMHBGo2Bswvagrd</image>
+            <image guid="1vMYJOTns2GvSkoI" imageid="11248" orderby="1">/igi/1vMYJOTns2GvSkoI</image>
          </images>
       </step>
-      <step number="4" title="">
+      <step number="4">
          <lines>
-            <line bullet="black" level="0">Carefully insert a small flathead screwdriver in the seam between the metal casing and white plastic bottom Use the screwdriver to pry up the white plastic bottom bezel. Be careful not to damage the soft plastic with your screwdriver.</line>
+            <line bullet="black" level="0">Drill the holes at the crosshairs following the sizes marked on the template. Remove (but keep) the paper first, to line up on the punch marks more accurately. Clamp the metal tightly onto scrap wood, and wherever possible use the unibit, which makes cleaner holes in thin metal than a twist drill. For the starter holes inside the rectangles, you may need to adjust the diameter smaller or larger to reach the rectangle edges.</line>
          </lines>
          <images>
-            <image guid="64orHJOkjncKWkE5" id="1747" orderby="1">http://nwelch.cominor.com/igi/64orHJOkjncKWkE5</image>
+            <image guid="FaRM3fQDwRAXkh1Z" imageid="11030" orderby="1">/igi/FaRM3fQDwRAXkh1Z</image>
          </images>
       </step>
-      <step number="5" title="">
+      <step number="5">
          <lines>
-            <line bullet="black" level="0">A small pair of snap ring pliers is the easiest tool to remove the metal retaining bracket.</line>
-            <line bullet="black" level="0">You can also use a flathead screwdriver to pry out the metal retaining bracket beneath the bottom bezel as shown. You can free the bracket by first pushing in the metal arms on the corners and then lifting the bracket.</line>
+            <line bullet="black" level="0">Finish the rectangular holes with the nibbler tool, cutting away until a rectangle appears. If you want, you can retape the template to see the rectangles more clearly. Then file the edges smooth.</line>
+            <line bullet="black" level="0">Use a handheld deburring tool to remove burrs from the metal’s edges. To deburr the small holes, push the point of a larger drill bit over the holes and twist it by hand.</line>
          </lines>
          <images>
-            <image guid="vhqerDqLcLqmyc5S" id="1748" orderby="1">http://nwelch.cominor.com/igi/vhqerDqLcLqmyc5S</image>
+            <image guid="UoVWs2rLj2Sux5Jb" imageid="11250" orderby="1">/igi/UoVWs2rLj2Sux5Jb</image>
+            <image guid="mLHrshJGtRTNolXf" imageid="11202" orderby="2">/igi/mLHrshJGtRTNolXf</image>
          </images>
       </step>
-      <step number="6" title="">
+      <step number="6">
          <lines>
-            <line bullet="black" level="0">Lift the metal retaining bracket out of the iPod.</line>
+            <line bullet="black" level="0">Cut out the base bending template and attach it to the other side of the aluminum with double-stick tape, aligning the holes and rectangles.</line>
+            <line bullet="black" level="1">Insert the metal in the brake with the new template facing up, and make all indicated bends at 90°.</line>
+            <line bullet="black" level="1">For each bend, go up gradually, using a drafting square between small bends to check the angle.</line>
+            <line bullet="icon_note" level="1">First bend the tabs on each long side of the metal, then bend up the sides of the body.</line>
          </lines>
          <images>
-            <image guid="YLtjQ6AqEsDF2DfT" id="1749" orderby="1">http://nwelch.cominor.com/igi/YLtjQ6AqEsDF2DfT</image>
+            <image guid="UUO1l2OTg3aNA215" imageid="11252" orderby="1">/igi/UUO1l2OTg3aNA215</image>
+            <image guid="gNxPraeWuoXZ6BQJ" imageid="11208" orderby="2">/igi/gNxPraeWuoXZ6BQJ</image>
          </images>
       </step>
-      <step number="7" title="">
+      <step number="7">
          <lines>
-            <line bullet="black" level="0">Use a spudger or the tip of your finger to carefully disconect the orange click wheel ribbon from the logic board.</line>
+            <line bullet="black" level="0"><strong>Add the Drivetrain</strong></line>
+            <line bullet="black" level="0">Mount the drive motors in the base using 4-40×1” screws through the small holes.</line>
+            <line bullet="icon_note" level="1">The motor shafts should poke out of the larger holes.</line>
+            <line bullet="black" level="0">Secure the screws with lock washers and nuts on the motor side. The base is small, so you may need needlenose pliers for tightening.</line>
+            <line bullet="icon_note" level="1">The base is small, so you may need needlenose pliers for tightening.</line>
          </lines>
          <images>
-            <image guid="sGdyA53vq1EVvoWn" id="1768" orderby="1">http://nwelch.cominor.com/igi/sGdyA53vq1EVvoWn</image>
+            <image guid="OPG54iChiywuWmYw" imageid="11038" orderby="1">/igi/OPG54iChiywuWmYw</image>
          </images>
       </step>
-      <step number="8" title="">
+      <step number="8">
          <lines>
-            <line bullet="black" level="0">Remove the two #00 Phillips screws securing the headphone jack to the casing.</line>
+            <line bullet="black" level="0">Use a 2” hole saw in a drill press to cut wheels out of some scrap wood. I used 1×8 shelving and my finished wheels were ¾” thick by about 1.8” in diameter.</line>
+            <line bullet="icon_caution" level="0">Clamp the wood, and go slowly to avoid stalling the drill press.</line>
+            <line bullet="black" level="0">Drill through 2 opposing holes in the hub with a #43 drill, then use a 4-40 tap to create threads in each hole.</line>
+            <line bullet="black" level="0">Center a wheel hub on each wooden wheel and use a small nail to mark 2 of the hole locations. Drill through the locations with a 1” drill.</line>
          </lines>
          <images>
-            <image guid="SpBcGgI3neI6finU" id="1769" orderby="1">http://nwelch.cominor.com/igi/SpBcGgI3neI6finU</image>
+            <image guid="jjwyYfYdQqSfLKMV" imageid="11289" orderby="1">/igi/jjwyYfYdQqSfLKMV</image>
+            <image guid="ZELKeGoZUDDOBVO1" imageid="11205" orderby="2">/igi/ZELKeGoZUDDOBVO1</image>
          </images>
       </step>
-      <step number="9" title="">
+      <step number="9">
          <lines>
-            <line bullet="black" level="0">Carefully slide the iPod out of its casing by pushing on the logic board near the bottom edge of the click wheel.</line>
-            <line bullet="icon_note" level="0">Do not pull on the headphone jack board at the top of the iPod, as the connector to the logic board is fragile.</line>
+            <line bullet="black" level="0">Paint the wheels. I love the Rust-Oleum red gloss; it is super thick, brightly colored, covers great, and cleans up easily.</line>
+            <line bullet="icon_note" level="0">Try not to get too much paint in the mounting holes.</line>
+            <line bullet="black" level="0">Use two 4-40×1” screws to attach the wheels to the hubs from the outside.</line>
+            <line bullet="icon_caution" level="0">Don’t overtighten.</line>
          </lines>
          <images>
-            <image guid="CLp2g21xPVwPuZxY" id="1770" orderby="1">http://nwelch.cominor.com/igi/CLp2g21xPVwPuZxY</image>
+            <image guid="ubfyFJmQqL1eiKmV" imageid="11257" orderby="1">/igi/ubfyFJmQqL1eiKmV</image>
          </images>
       </step>
-      <step number="10" title="">
+      <step number="10">
          <lines>
-            <line bullet="black" level="0">After pushing the logic board out sufficiently, gently grasp the logic board on either side of the display, and continue to slide the iPod out of its casing.</line>
+            <line bullet="black" level="0">Install tires on the wheels, orienting them with the larger diameter facing out. Then snap each wheel assembly into its motor shaft. Attach the skidder to the bottom of the base using the screws, nuts, and the thinner of the 2 spacers it comes with.</line>
          </lines>
          <images>
-            <image guid="lCGvtIanOnHiZkaf" id="1771" orderby="1">http://nwelch.cominor.com/igi/lCGvtIanOnHiZkaf</image>
-         </images>
-      </step>
-      <step number="11" title="">
-         <lines>
-            <line bullet="black" level="0">Lift the battery off of the logic board and lay it to the side of the iPod.</line>
-         </lines>
-         <images>
-            <image guid="omybxtlHQCqD6W66" id="1772" orderby="1">http://nwelch.cominor.com/igi/omybxtlHQCqD6W66</image>
-         </images>
-      </step>
-      <step number="12" title="">
-         <lines>
-            <line bullet="black" level="0">Use a spudger or the tip of your finger to carefully disconect the orange hard drive ribbon from the logic board.</line>
-         </lines>
-         <images>
-            <image guid="UKHcTyfEC4NOEvWV" id="1773" orderby="1">http://nwelch.cominor.com/igi/UKHcTyfEC4NOEvWV</image>
-         </images>
-      </step>
-      <step number="13" title="">
-         <lines>
-            <line bullet="black" level="0">Lift the hard drive out of the iPod.</line>
-         </lines>
-         <images>
-            <image guid="srDBqmcCElIgVuEZ" id="1774" orderby="1">http://nwelch.cominor.com/igi/srDBqmcCElIgVuEZ</image>
-         </images>
-      </step>
-      <step number="14" title="">
-         <lines>
-            <line bullet="black" level="0">Peel back the black tape securing the two blue bumpers to the hard drive near the orange ribbon cable.</line>
-         </lines>
-         <images>
-            <image guid="AgLTBF3ZLEvBKnOB" id="1775" orderby="1">http://nwelch.cominor.com/igi/AgLTBF3ZLEvBKnOB</image>
-         </images>
-      </step>
-      <step number="15" title="">
-         <lines>
-            <line bullet="black" level="0">Slide the two blue bumpers off the corners of the hard drive. There is no need to remove these bumpers entirely.</line>
-         </lines>
-         <images>
-            <image guid="ewoYSmYlHjNVByDA" id="1776" orderby="1">http://nwelch.cominor.com/igi/ewoYSmYlHjNVByDA</image>
-         </images>
-      </step>
-      <step number="16" title="">
-         <lines>
-            <line bullet="black" level="0">Carefully disconnect the orange hard drive ribbon cable from the hard drive. Be sure to apply even pressure while pulling to prevent any bent pins.</line>
-            <line bullet="icon_note" level="0">If the cable doesn't come free easily, you may be able to free it by gently rocking the ribbon cable back and forth.</line>
-         </lines>
-         <images>
-            <image guid="nGAJsxREaPNVrThK" id="1777" orderby="1">http://nwelch.cominor.com/igi/nGAJsxREaPNVrThK</image>
+            <image guid="1XqL2QidRcZieG5U" imageid="11209" orderby="1">/igi/1XqL2QidRcZieG5U</image>
+            <image guid="PTNun1Ka25KVALni" imageid="11259" orderby="2">/igi/PTNun1Ka25KVALni</image>
          </images>
       </step>
    </steps>
-   <conclusion><p>To reassemble your device, follow these instructions in reverse order.</p></conclusion>
+   <tools>
+      <tool>#43 drill bit</tool>
+      <tool>9" bandsaw with  1" metal cutting blade</tool>
+      <tool>18" bending brake Harbor Freight #39103-8VGA,</tool>
+      <tool>Drill press with vise clamp and scrap wood block</tool>
+      <tool>Fractional drill bit set</tool>
+      <tool>Nibbler tool  Jameco #18810</tool>
+      <tool>Step drill, aka unibit, Harbor Freight #91616-0VGA</tool>
+   </tools>
+   <parts />
+   <flags>
+      <flag title="In Progress">This guide is currently being written. Reload periodically to see the latest changes.</flag>
+      <flag title="Unpublished">This guide will not appear in search results but can still be viewed by anyone!</flag>
+      <flag title="User-Contributed Guide">This guide is not managed by iFixit staff.</flag>
+   </flags>
 </guide>
