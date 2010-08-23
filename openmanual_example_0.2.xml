@@ -1,6 +1,5 @@
 <?xml version="1.0"?>
-<!DOCTYPE guide PUBLIC "guide" "http://www.ifixit.com/guide.dtd">
-<guide id="419" locale="en">
+<guide id="419" locale="en" xmlns="http://www.w3schools.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.ifixit.com/Misc/OpenManual/openmanual_0.2.xsd">
    <title subject="Bottom Bezel Bracket" type="installation">Installing iPod Nano 2nd Generation Bottom Bezel Bracket</title>
    <summary>This is a summary. It is less than 255 characters.</summary>
    <image guid="TFCKijfJ5fo2IADd" id="1801">http://nwelch.cominor.com/igi/TFCKijfJ5fo2IADd</image>
@@ -19,7 +18,9 @@
    <parts>
       <part thumbnail="http://cart-products.ifixit.net/cart-products/CPiMKmSYDDea2nu1.mini.jpg" url="http://nwelch.cominor.com/iPod-Parts/iPod-Nano-Gen-2-Bottom-Bezel-Bracket/IF199-006">iPod Nano Gen 2 Bottom Bezel Bracket</part>
    </parts>
-   <flags />
+   <flags>
+      <flag id="GUIDE_IN_PROGRESS" title="In Progress">This guide is currently being written. Reload periodically to see the latest changes.</flag>
+   </flags>
    <documents>
       <document id="138" url="http://cominor-documents.s3.amazonaws.com/UxujoG1XDgJ5qnRq.pdf">About-Stacks.pdf</document>
    </documents>
