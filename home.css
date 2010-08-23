@@ -3,8 +3,9 @@
     padding: 0;
 }
 
-p {
-   padding: 5px;
+blockquote {
+   font-size: 0.8em;
+   padding: 1em;
 }
 
 strong {
