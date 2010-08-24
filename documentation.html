@@ -62,7 +62,6 @@
          </p>
          <ul>
             <li><strong>guid</strong> - <em>optional</em> a global string identifier for the image.</li>
-            <li><strong>id</strong> - <em>optional</em> an integer identifier for the image.</li>
             <li><strong>author_id</strong>  - <em>optional</em> an integer identifier for the author of the image.</li>
          </ul>
 
@@ -126,10 +125,6 @@
 
          <h4>flag</h4> 
          <p>
-         id="GUIDE_IN_PROGRESS" 
-         title="In Progress"
-         </p>
-         <p>
          <em>optional</em> - A flag or informational note about the guide. The text field contains a full text notice of what this flag means to the user.
          </p>
          <ul>
@@ -139,32 +134,48 @@
          
          <h4>documents</h4>
          <p>
+         <em>required</em> - A container for the document tag.
          </p>
 
          <h4>document</h4>
          <p>
-         id="138" 
-         url="http://cominor-documents.s3.amazonaws.com/UxujoG1XDgJ5qnRq.pdf"
+         <em>optional</em> - A document attached to the guide. The text for this element should be the filename of the attached document.
          </p>
+         <ul>
+            <li><strong>Url</strong> - <em>required</em> A URL to the attached document.</li>
+         </ul>
 
          <h4>prerequisites</h4>
          <p>
-         prerequisite id="418" 
-         locale="en"
+         <em>required</em> - A container for the prerequisite tag.
          </p>
+
+         <h4>prerequisite</h4>
+         <p>
+         <em>optional</em> - The title of a prerequisite guide. Usually it is assumed the steps of the prerequisites are included in the steps tag.
+         </p>
+         <ul>
+            <li><strong>id</strong> - <em>required</em> An id for the associated prerequisite guide.</li>
+            <li><strong>locale</strong> - <em>required</em> The language the guide is written in.</li>
+         </ul>
 
          <h4>steps</h4>
          <p>
+         <em>required</em> - A container for the step tag.
          </p>
 
          <h4>step</h4>
          <p>
-         number="2" 
-         title=""
+         <em>optional</em> - The step. Contains the lines and images elements.
          </p>
+         <ul>
+            <li><strong>number</strong> - <em>required</em> The step number starting from 0.</li>
+            <li><strong>title</strong> - <em>optional</em> The title of the step.</li>
+         </ul>
 
          <h4>lines</h4>
          <p>
+         <em>required</em> - A container for the line tag.
          </p>
 
          <h4>line</h4> 
@@ -172,20 +183,28 @@
          bullet="icon_caution" 
          level="0"
          </p>
+         <ul>
+            <li><strong>bullet</strong> - <em>required</em> Which bullet to use.</li>
+            <li><strong>level</strong> - <em>optional</em> How indented this line is.</li>
+         </ul>
 
          <h4>images</h4>
          <p>
+         <em>required</em> - A container for the image tag.
          </p>
 
          <h4>image</h4>
          <p>
-         guid="KmjiobyZTwMW2ZPM" 
-         id="1800" 
-         orderby="1"
+         The URL for an image to include with this step.
          </p>
+         <ul>
+            <li><strong>guid</strong> - <em>required</em> a global string identifier for the image </li>
+            <li><strong>orderby</strong> - <em>optional</em> The image order.</li>
+         </ul>
 
          <h4>conclusion</h4>
          <p>
+         <em>optional</em> - The text for the conclusion.
          </p>
 
          <div class="footer">Open Manual Project is an open source standard being developed by a <a href="about.html">small group</a> of dedicated individuals.</div>
