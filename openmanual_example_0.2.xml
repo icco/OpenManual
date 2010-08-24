@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
-<guide id="419" locale="en" xmlns="http://www.w3schools.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.ifixit.com/Misc/OpenManual/openmanual_0.2.xsd">
+<guide id="419" locale="en" xmlns="http://www.iFixit.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.ifixit.com/Misc/OpenManual/openmanual_0.2.xsd">
    <title subject="Bottom Bezel Bracket" type="installation">Installing iPod Nano 2nd Generation Bottom Bezel Bracket</title>
    <summary>This is a summary. It is less than 255 characters.</summary>
-   <image guid="TFCKijfJ5fo2IADd" id="1801">http://nwelch.cominor.com/igi/TFCKijfJ5fo2IADd</image>
+   <image guid="TFCKijfJ5fo2IADd">http://nwelch.cominor.com/igi/TFCKijfJ5fo2IADd</image>
    <author id="1">iRobot</author>
    <time_required>10 minutes</time_required>
    <difficulty>Difficult</difficulty>
@@ -22,7 +22,7 @@
       <flag id="GUIDE_IN_PROGRESS" title="In Progress">This guide is currently being written. Reload periodically to see the latest changes.</flag>
    </flags>
    <documents>
-      <document id="138" url="http://cominor-documents.s3.amazonaws.com/UxujoG1XDgJ5qnRq.pdf">About-Stacks.pdf</document>
+      <document url="http://cominor-documents.s3.amazonaws.com/UxujoG1XDgJ5qnRq.pdf">About-Stacks.pdf</document>
    </documents>
    <prerequisites>
       <prerequisite id="418" locale="en">Installing iPod Nano 2nd Generation Bottom Bezel</prerequisite>
@@ -33,7 +33,7 @@
             <line bullet="icon_note" level="0">Before opening your iPod, ensure that the hold switch is in the locked position.</line>
          </lines>
          <images>
-            <image guid="NsEmgggSmqUmqyhX" id="1799" orderby="1">http://nwelch.cominor.com/igi/NsEmgggSmqUmqyhX</image>
+            <image guid="NsEmgggSmqUmqyhX" orderby="1">http://nwelch.cominor.com/igi/NsEmgggSmqUmqyhX</image>
          </images>
       </step>
       <step number="2" title="">
@@ -43,7 +43,7 @@
             <line bullet="black" level="0">Lift the bottom bezel off the iPod. It's glued on using a mild adhesive, so some force may be required.</line>
          </lines>
          <images>
-            <image guid="KmjiobyZTwMW2ZPM" id="1800" orderby="1">http://nwelch.cominor.com/igi/KmjiobyZTwMW2ZPM</image>
+            <image guid="KmjiobyZTwMW2ZPM" orderby="1">http://nwelch.cominor.com/igi/KmjiobyZTwMW2ZPM</image>
          </images>
       </step>
       <step number="3" title="">
@@ -53,7 +53,7 @@
             <line bullet="orange" level="1">One #00 Phillips screw with a smaller head near the side of the iPod. This screw strips easily, so be sure to press down firmly on the screwdriver.</line>
          </lines>
          <images>
-            <image guid="TFCKijfJ5fo2IADd" id="1801" orderby="1">http://nwelch.cominor.com/igi/TFCKijfJ5fo2IADd</image>
+            <image guid="TFCKijfJ5fo2IADd" orderby="1">http://nwelch.cominor.com/igi/TFCKijfJ5fo2IADd</image>
          </images>
       </step>
       <step number="4" title="">
@@ -61,7 +61,7 @@
             <line bullet="black" level="0">Use a metal spudger to carefully pry the headphone jack out of the casing. DO NOT remove the headphone jack from the iPod entirely, as it is connected via a fragile ribbon connector to the click wheel.</line>
          </lines>
          <images>
-            <image guid="nVHmgObvCQ4JgWAp" id="1802" orderby="1">http://nwelch.cominor.com/igi/nVHmgObvCQ4JgWAp</image>
+            <image guid="nVHmgObvCQ4JgWAp" orderby="1">http://nwelch.cominor.com/igi/nVHmgObvCQ4JgWAp</image>
          </images>
       </step>
       <step number="5" title="">
@@ -69,7 +69,7 @@
             <line bullet="black" level="0">Slide the headphone jack out until the white plastic housing is no longer held in place by the metal casing.</line>
          </lines>
          <images>
-            <image guid="X1m2sdcc2FLBg4R3" id="1803" orderby="1">http://nwelch.cominor.com/igi/X1m2sdcc2FLBg4R3</image>
+            <image guid="X1m2sdcc2FLBg4R3" orderby="1">http://nwelch.cominor.com/igi/X1m2sdcc2FLBg4R3</image>
          </images>
       </step>
       <step number="6" title="">
@@ -77,15 +77,15 @@
             <line bullet="black" level="0">Remove the newly-revealed Phillips #00 screw from beneath the headphone jack.</line>
          </lines>
          <images>
-            <image guid="nOSSG6Nsi3qweRB1" id="1804" orderby="1">http://nwelch.cominor.com/igi/nOSSG6Nsi3qweRB1</image>
+            <image guid="nOSSG6Nsi3qweRB1" orderby="1">http://nwelch.cominor.com/igi/nOSSG6Nsi3qweRB1</image>
          </images>
       </step>
       <step number="7" title="">
          <lines>
-            <line bullet="black" level="0">Lift the bottom bezel bracket out of the iPod.</line>
+            <line bullet="black" level="0">Remove the newly-revealed Phillips #00 screw from beneath the headphone jack.</line>
          </lines>
          <images>
-            <image guid="SjVEOuRyNifK2QdQ" id="1805" orderby="1">http://nwelch.cominor.com/igi/SjVEOuRyNifK2QdQ</image>
+            <image guid="nOSSG6Nsi3qweRB1" orderby="1">http://nwelch.cominor.com/igi/nOSSG6Nsi3qweRB1</image>
          </images>
       </step>
    </steps>
