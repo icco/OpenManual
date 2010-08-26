@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <xs:element name="guide">
     <xs:complexType>
       <xs:sequence>
@@ -20,7 +20,8 @@
         <xs:element ref="conclusion"/>
       </xs:sequence>
       <xs:attribute name="id" type="xs:integer"/>
-      <xs:attribute name="locale" use="optional" type="xs:string"/>
+      <xs:attribute name="locale" use="required" type="xs:string"/>
+      <xs:attribute ref="xsi:schemaLocation" use="required"/>
     </xs:complexType>
   </xs:element>
   <xs:element name="title">
@@ -29,9 +30,7 @@
       <xs:attribute name="type" type="xs:string"/>
     </xs:complexType>
   </xs:element>
-  <xs:element name="summary">
-    <xs:complexType/>
-  </xs:element>
+  <xs:element name="summary" type="xs:string"/>
   <xs:element name="author">
     <xs:complexType>
       <xs:simpleContent>
@@ -41,9 +40,7 @@
       </xs:simpleContent>
     </xs:complexType>
   </xs:element>
-  <xs:element name="time_required">
-    <xs:complexType/>
-  </xs:element>
+  <xs:element name="time_required" type="xs:string"/>
   <xs:element name="difficulty" type="xs:string"/>
   <xs:element name="categories">
     <xs:complexType>
@@ -81,10 +78,33 @@
     </xs:complexType>
   </xs:element>
   <xs:element name="flags">
-    <xs:complexType/>
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="flag"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="flag">
+    <xs:complexType mixed="true">
+      <xs:attribute name="id" type="xs:string"/>
+      <xs:attribute name="title" use="required" type="xs:string"/>
+    </xs:complexType>
   </xs:element>
   <xs:element name="documents">
-    <xs:complexType/>
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="document"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="document">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:string">
+          <xs:attribute name="url" use="required" type="xs:anyURI"/>
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
   </xs:element>
   <xs:element name="prerequisites">
     <xs:complexType>
