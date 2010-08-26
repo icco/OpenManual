@@ -19,14 +19,14 @@
         <xs:element ref="steps"/>
         <xs:element ref="conclusion"/>
       </xs:sequence>
-      <xs:attribute name="id" use="required" type="xs:integer"/>
+      <xs:attribute name="id" type="xs:integer"/>
       <xs:attribute name="locale" use="optional" type="xs:string"/>
     </xs:complexType>
   </xs:element>
   <xs:element name="title">
     <xs:complexType mixed="true">
-      <xs:attribute name="subject" use="required"/>
-      <xs:attribute name="type" use="required" type="xs:string"/>
+      <xs:attribute name="subject"/>
+      <xs:attribute name="type" type="xs:string"/>
     </xs:complexType>
   </xs:element>
   <xs:element name="summary">
@@ -35,8 +35,8 @@
   <xs:element name="author">
     <xs:complexType>
       <xs:simpleContent>
-        <xs:extension base="xs:NCName">
-          <xs:attribute name="id" use="required" type="xs:integer"/>
+        <xs:extension base="xs:string">
+          <xs:attribute name="id" type="xs:integer"/>
         </xs:extension>
       </xs:simpleContent>
     </xs:complexType>
@@ -44,7 +44,7 @@
   <xs:element name="time_required">
     <xs:complexType/>
   </xs:element>
-  <xs:element name="difficulty" type="xs:NCName"/>
+  <xs:element name="difficulty" type="xs:string"/>
   <xs:element name="categories">
     <xs:complexType>
       <xs:sequence>
@@ -53,7 +53,7 @@
     </xs:complexType>
   </xs:element>
   <xs:element name="category" type="xs:string"/>
-  <xs:element name="introduction" type="p"/>
+  <xs:element name="introduction" type="xs:string"/>
   <xs:element name="tools">
     <xs:complexType>
       <xs:sequence>
@@ -64,7 +64,7 @@
   <xs:element name="tool">
     <xs:complexType mixed="true">
       <xs:attribute name="thumbnail" type="xs:anyURI"/>
-      <xs:attribute name="url" use="required" type="xs:anyURI"/>
+      <xs:attribute name="url" type="xs:anyURI"/>
     </xs:complexType>
   </xs:element>
   <xs:element name="parts">
@@ -96,7 +96,7 @@
   <xs:element name="prerequisite">
     <xs:complexType mixed="true">
       <xs:attribute name="id" use="required" type="xs:integer"/>
-      <xs:attribute name="locale" use="required" type="xs:NCName"/>
+      <xs:attribute name="locale" use="required" type="xs:string"/>
     </xs:complexType>
   </xs:element>
   <xs:element name="steps">
@@ -113,7 +113,7 @@
         <xs:element ref="images"/>
       </xs:sequence>
       <xs:attribute name="number" use="required" type="xs:integer"/>
-      <xs:attribute name="title" use="required"/>
+      <xs:attribute name="title" type="xs:string"/>
     </xs:complexType>
   </xs:element>
   <xs:element name="lines">
@@ -125,8 +125,8 @@
   </xs:element>
   <xs:element name="line">
     <xs:complexType mixed="true">
-      <xs:attribute name="bullet" use="required" type="xs:NCName"/>
-      <xs:attribute name="level" use="required" type="xs:integer"/>
+      <xs:attribute name="bullet" type="xs:string"/>
+      <xs:attribute name="level" type="xs:integer"/>
     </xs:complexType>
   </xs:element>
   <xs:element name="images">
@@ -136,22 +136,15 @@
       </xs:sequence>
     </xs:complexType>
   </xs:element>
-  <xs:element name="conclusion" type="p"/>
+  <xs:element name="conclusion" type="xs:string"/>
   <xs:element name="image">
     <xs:complexType>
       <xs:simpleContent>
         <xs:extension base="xs:anyURI">
-          <xs:attribute name="guid" use="required" type="xs:NCName"/>
-          <xs:attribute name="id" use="required" type="xs:integer"/>
+          <xs:attribute name="guid" use="required" type="xs:string"/>
           <xs:attribute name="orderby" type="xs:integer"/>
         </xs:extension>
       </xs:simpleContent>
     </xs:complexType>
   </xs:element>
-  <xs:complexType name="p">
-    <xs:sequence>
-      <xs:element ref="p"/>
-    </xs:sequence>
-  </xs:complexType>
-  <xs:element name="p" type="xs:string"/>
 </xs:schema>
