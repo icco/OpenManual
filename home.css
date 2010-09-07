@@ -150,3 +150,40 @@ pre {
     padding: 1em;
     margin: 1em 0 1em 0;
 }
+
+.documentation .tag {
+   border: 1px gray solid;
+   padding: 10px;
+   margin: 5px 0;
+}
+
+.documentation .tag h4 em {
+   font-size: 0.7em;
+}
+
+.documentation .tag em {
+   font-size: 0.8em;
+}
+
+.documentation h3 {
+   margin: 10px 0;
+}
+
+.documentation li.attr-intro {
+   list-style: none;
+   margin-left: -30px;
+}
+
+.documentation .tag h4 {
+   margin-top: 0;
+}
+
+.documentation p.desc {
+   margin-top: 2px;
+   margin-bottom: 10px;
+}
+
+.documentation .tag div {
+   padding-left: 10px;
+}
+
