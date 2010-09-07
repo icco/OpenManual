@@ -30,7 +30,13 @@
       <xs:attribute name="type" type="xs:string"/>
     </xs:complexType>
   </xs:element>
-  <xs:element name="summary" type="xs:string"/>
+  <xs:element name="summary">
+     <xs:simpleType>
+        <xs:restriction base="xs:string">
+           <xs:maxLength value="255"/>
+        </xs:restriction>
+     </xs:simpleType>
+  </xs:element>
   <xs:element name="author">
     <xs:complexType>
       <xs:simpleContent>
