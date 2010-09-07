@@ -7,7 +7,7 @@
       <meta name="keywords" content="" />
       <link rel="stylesheet" type="text/css" href="home.css" /> 
    </head>
-   <body>
+   <body class="documentation">
       <div class="container">
          <ul id="navbar">
             <li id="topics"><a href="documentation.html" title="Documentation">Documentation</a></li>
@@ -30,13 +30,13 @@
 
          <h3>Elements of an OpenManual XML Document</h3>
 
-         <h4>guide</h4>
+         <h4>manual</h4>
          <p>
          <em>required</em> - The root node of the OpenManual Document.
          </p>
          <ul>
-            <li><strong>id</strong> - <em>optional</em> An integer containing the id of the guide.</li>
-            <li><strong>locale</strong> - <em>required</em> The language the guide is written in.</li>
+            <li><strong>id</strong> - <em>optional</em> An integer containing the id of the procedure.</li>
+            <li><strong>locale</strong> - <em>required</em> The language the procedure is written in.</li>
             <li><strong>xmlns</strong> - <em>required</em> The site you are getting the source data from. ex. http://www.ifixit.com</li>
             <li><strong>xmlns:xsi</strong> - <em>required</em> Set to http://www.w3.org/2001/XMLSchema-instance</li>
             <li><strong>xsi:schemaLocation</strong> - <em>required</em> The location of the OpenManual schema definition, ex. http://www.ifixit.com/Misc/OpenManual/openmanual_0.2.xsd</li>
@@ -44,21 +44,21 @@
 
          <h4>title</h4>
          <p>
-         <em>required</em> - Contains the title of the guide.
+         <em>required</em> - Contains the title of the procedure.
          </p>
          <ul>
-            <li><strong>subject</strong> - <em>optional</em> The subject of the guide. ex. Bottom Bezel Bracket</li>
-            <li><strong>type</strong> - <em>optional</em> What the guide explains in relation to the subject. ex. Installation</li>
+            <li><strong>subject</strong> - <em>optional</em> The subject of the procedure. ex. Bottom Bezel Bracket</li>
+            <li><strong>type</strong> - <em>optional</em> What the procedure explains in relation to the subject. ex. Installation</li>
          </ul>
 
          <h4>summary</h4>
          <p>
-         <em>optional</em> - A text field that contains less than 255 characters describing the guide.
+         <em>optional</em> - A text field that contains less than 255 characters describing the procedure.
          </p>
 
          <h4>image</h4>
          <p>
-         <em>required</em> - The URL to the image on the front of the guide.
+         <em>required</em> - The URL to the image on the front of the procedure.
          </p>
          <ul>
             <li><strong>guid</strong> - <em>optional</em> a global string identifier for the image.</li>
@@ -67,12 +67,12 @@
 
          <h4>time_required</h4>
          <p>
-         <em>optional</em> - A description of how long the guide takes. <blockquote>ex. 15 minutes</blockquote> 
+         <em>optional</em> - A description of how long the procedure takes. <blockquote>ex. 15 minutes</blockquote> 
          </p>
 
          <h4>difficulty</h4>
          <p>
-         <em>optional</em> - An arbitrary guess at the difficulty of the guide. <blockquote>ex. Difficult.</blockquote> 
+         <em>optional</em> - An arbitrary guess at the difficulty of the procedure. <blockquote>ex. Difficult.</blockquote> 
          </p>
 
          <h4>categories</h4>
@@ -82,12 +82,12 @@
 
          <h4>category</h4>
          <p>
-         <em>optional</em> - A single category the guide belongs to. To specify multiple categories put multiple category tags in the categories tag.
+         <em>optional</em> - A single category the procedure belongs to. To specify multiple categories put multiple category tags in the categories tag.
          </p>
 
          <h4>introduction</h4>
          <p>
-         <em>required</em> - The text introducing the guide. Can be anything from how to set up for the guide to an introduction of the guides subject matter.
+         <em>required</em> - The text introducing the procedure. Can be anything from how to set up for the procedure to an introduction of the procedures subject matter.
          </p>
 
          <h4>tools</h4>
@@ -125,7 +125,7 @@
 
          <h4>flag</h4> 
          <p>
-         <em>optional</em> - A flag or informational note about the guide. The text field contains a full text notice of what this flag means to the user.
+         <em>optional</em> - A flag or informational note about the procedure. The text field contains a full text notice of what this flag means to the user.
          </p>
          <ul>
             <li><strong>id</strong> - <em>optional</em> A unique identifier for the flag.</li>
@@ -139,7 +139,7 @@
 
          <h4>document</h4>
          <p>
-         <em>optional</em> - A document attached to the guide. The text for this element should be the filename of the attached document.
+         <em>optional</em> - A document attached to the procedure. The text for this element should be the filename of the attached document.
          </p>
          <ul>
             <li><strong>url</strong> - <em>required</em> A URL to the attached document.</li>
@@ -152,11 +152,11 @@
 
          <h4>prerequisite</h4>
          <p>
-         <em>optional</em> - The title of a prerequisite guide. Usually it is assumed the steps of the prerequisites are included in the steps tag.
+         <em>optional</em> - The title of a prerequisite procedure. Usually it is assumed the steps of the prerequisites are included in the steps tag.
          </p>
          <ul>
-            <li><strong>id</strong> - <em>required</em> An id for the associated prerequisite guide.</li>
-            <li><strong>locale</strong> - <em>required</em> The language the guide is written in.</li>
+            <li><strong>id</strong> - <em>required</em> An id for the associated prerequisite procedure.</li>
+            <li><strong>locale</strong> - <em>required</em> The language the procedure is written in.</li>
          </ul>
 
          <h4>steps</h4>
