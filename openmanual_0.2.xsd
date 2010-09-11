@@ -81,6 +81,7 @@
     <xs:complexType mixed="true">
       <xs:attribute name="thumbnail" use="required" type="xs:anyURI"/>
       <xs:attribute name="url" use="required" type="xs:anyURI"/>
+      <xs:attribute name="id" use="required" type="xs:string"/>
     </xs:complexType>
   </xs:element>
   <xs:element name="flags">
