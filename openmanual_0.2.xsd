@@ -47,7 +47,17 @@
     </xs:complexType>
   </xs:element>
   <xs:element name="time_required" type="xs:string"/>
-  <xs:element name="difficulty" type="xs:string"/>
+  <xs:element name="difficulty">
+     <xs:simpleType name="difficulty">
+        <xs:restriction base = "xsd:string">
+           <xs:enumeration value="Very easy" />
+           <xs:enumeration value="Easy" />
+           <xs:enumeration value="Moderate" />
+           <xs:enumeration value="Difficult" />
+           <xs:enumeration value="Very difficult" />
+        </xs:restriction>
+     </xs:simpleType>
+  </xs:element>
   <xs:element name="categories">
     <xs:complexType>
       <xs:sequence>
