@@ -19,16 +19,32 @@
 
          <h2>Documentation</h2>
          <p class="desc">
-         An OpenManual document is a simple XML document. There is a schema definition available to validate against and documentation for each tag below.
+         An oManual package is a ZIP file containing an XML document and referenced media files. There is a schema definition available to validate against and documentation for each tag below.
          </p>
 
-         <h3>Examples</h3>
+         <h4>Package Format</h4>
+         <p>
+            <ul>
+               <li>ZIP .omanual archive <small><a href="http://www.pkware.com/documents/casestudies/APPNOTE.TXT">(ZIP compression format specification)</a></small></li>
+               <ul>
+                  <li>manual.xml</li>
+                  <li>media/</li>
+                  <ul>
+                     <li>Referenced file n</li>
+                     <li>Referenced file n+1</li>
+                  </ul>
+               </ul>
+            </ul>
+         </p>
+
+
+         <h4>Examples</h4>
          <ul>
             <li><a href="openmanual_example_0.2.xml">Example XML</a></li>
             <li><a href="openmanual_0.2.xsd">XML Schema Definition</a></li>
          </ul>
 
-         <h3>Elements of an OpenManual XML Document</h3>
+         <h4>Elements of an OpenManual XML Document</h4>
 
          <div class="tag">
             <h4>manual <em>required</em></h4>
