@@ -4,7 +4,7 @@
    <locale>en</locale>
    <title subject="Front Display Bezel" type="installation">Installing iBook G4 14" 933 MHz-1.33 GHz Front Display Bezel</title>
    <summary />
-   <image guid="sdOyUhLDhZPhbpyw">http://nwelch.cominor.com/igi/sdOyUhLDhZPhbpyw</image>
+   <image guid="sdOyUhLDhZPhbpyw">media/sdOyUhLDhZPhbpyw.jpg</image>
    <author id="18">Walter Galan</author>
    <time_required />
    <difficulty>Very difficult</difficulty>
@@ -13,13 +13,13 @@
    </categories>
    <introduction><p>Use this guide to replace a broken front display bezel.</p></introduction>
    <tools>
-      <tool thumbnail="http://cart-products.ifixit.net/cart-products/6KqdqX6DFCcyaMkS.mini.jpg" url="http://nwelch.cominor.com/Tools/1-5mm-Hex-Screwdriver/IF145-025">1.5mm Hex Screwdriver</tool>
+      <tool thumbnail="6KqdqX6DFCcyaMkS.mini" url="http://nwelch.cominor.com/Tools/1-5mm-Hex-Screwdriver/IF145-025">1.5mm Hex Screwdriver</tool>
       <tool url="http://nwelch.cominor.com/Item/Coin">Coin</tool>
-      <tool thumbnail="http://cart-products.ifixit.net/cart-products/GGXkxBRrmZg6iRdE.mini.jpg" url="http://nwelch.cominor.com/Tools/Phillips-00-Screwdriver/IF145-006">Phillips #00 Screwdriver</tool>
-      <tool thumbnail="http://cart-products.ifixit.net/cart-products/lA2kL1NUD3IvKNhV.mini.jpg" url="http://nwelch.cominor.com/Tools/Spudger/IF145-002">Spudger</tool>
+      <tool thumbnail=".mini" url="http://nwelch.cominor.com/Tools/Phillips-00-Screwdriver/IF145-006">Phillips #00 Screwdriver</tool>
+      <tool thumbnail="lA2kL1NUD3IvKNhV.mini" url="http://nwelch.cominor.com/Tools/Spudger/IF145-002">Spudger</tool>
    </tools>
    <parts>
-      <part thumbnail="http://cart-products.ifixit.net/cart-products/UPM3Z4HPrTBSgQOF.mini.jpg" url="http://nwelch.cominor.com/iBook-Parts/iBook-G4-14-Inch-Front-Display-Bezel/IF184-047">iBook G4 14&quot; Front Display Bezel</part>
+      <part thumbnail="UPM3Z4HPrTBSgQOF.mini" url="http://nwelch.cominor.com/iBook-Parts/iBook-G4-14-Inch-Front-Display-Bezel/IF184-047">iBook G4 14&quot; Front Display Bezel</part>
    </parts>
    <flags />
    <documents />
@@ -46,7 +46,7 @@
             <line bullet="black" level="0">Use a coin to rotate the battery locking screw 90 degrees clockwise.</line>
          </lines>
          <images>
-            <image guid="JOMi1v5lvH4bM2Up" orderby="1">http://nwelch.cominor.com/igi/JOMi1v5lvH4bM2Up</image>
+            <image guid="JOMi1v5lvH4bM2Up" orderby="1">media/JOMi1v5lvH4bM2Up.jpg</image>
          </images>
       </step>
       <step number="2" title="">
@@ -54,7 +54,7 @@
             <line bullet="black" level="0">Lift the battery out of the computer.</line>
          </lines>
          <images>
-            <image guid="sDUEOFFdDYPl4JYA" orderby="1">http://nwelch.cominor.com/igi/sDUEOFFdDYPl4JYA</image>
+            <image guid="sDUEOFFdDYPl4JYA" orderby="1">media/sDUEOFFdDYPl4JYA.jpg</image>
          </images>
       </step>
       <step number="3" title="">
@@ -64,7 +64,7 @@
             <line bullet="black" level="0">Flip the keyboard over, away from the screen, and rest it face-down on the trackpad area.</line>
          </lines>
          <images>
-            <image guid="OShgOW4uVLDikm2d" orderby="1">http://nwelch.cominor.com/igi/OShgOW4uVLDikm2d</image>
+            <image guid="OShgOW4uVLDikm2d" orderby="1">media/OShgOW4uVLDikm2d.jpg</image>
          </images>
       </step>
       <step number="4" title="">
@@ -73,7 +73,7 @@
             <line bullet="black" level="0">Push the wire clasp away from the AirPort card and toward the display, then rotate up to free it from the RAM shield.</line>
          </lines>
          <images>
-            <image guid="igRPdnpdBs2V5ial" orderby="1">http://nwelch.cominor.com/igi/igRPdnpdBs2V5ial</image>
+            <image guid="igRPdnpdBs2V5ial" orderby="1">media/igRPdnpdBs2V5ial.jpg</image>
          </images>
       </step>
       <step number="5" title="">
@@ -81,7 +81,7 @@
             <line bullet="black" level="0">Grasp the clear plastic tab on the AirPort card and pull toward the display.</line>
          </lines>
          <images>
-            <image guid="kgFadqVQi6M1q1Ku" orderby="1">http://nwelch.cominor.com/igi/kgFadqVQi6M1q1Ku</image>
+            <image guid="kgFadqVQi6M1q1Ku" orderby="1">media/kgFadqVQi6M1q1Ku.jpg</image>
          </images>
       </step>
       <step number="6" title="">
@@ -89,7 +89,7 @@
             <line bullet="black" level="0">Hold the AirPort card in one hand and use your other hand to remove the antenna cable.</line>
          </lines>
          <images>
-            <image guid="Mgl4dIiwGOQODFxD" orderby="1">http://nwelch.cominor.com/igi/Mgl4dIiwGOQODFxD</image>
+            <image guid="Mgl4dIiwGOQODFxD" orderby="1">media/Mgl4dIiwGOQODFxD.jpg</image>
          </images>
       </step>
       <step number="7" title="">
@@ -97,7 +97,7 @@
             <line bullet="red" level="0">Remove the four silver Phillips screws that secure the RAM shield.</line>
          </lines>
          <images>
-            <image guid="QpKXiLu3r3HOrlDJ" orderby="1">http://nwelch.cominor.com/igi/QpKXiLu3r3HOrlDJ</image>
+            <image guid="QpKXiLu3r3HOrlDJ" orderby="1">media/QpKXiLu3r3HOrlDJ.jpg</image>
          </images>
       </step>
       <step number="8" title="">
@@ -105,7 +105,7 @@
             <line bullet="black" level="0">Grasp the metal bracket on top of the RAM shield and pull upward to remove the shield.</line>
          </lines>
          <images>
-            <image guid="qBKRySlvStdsLSRx" orderby="1">http://nwelch.cominor.com/igi/qBKRySlvStdsLSRx</image>
+            <image guid="qBKRySlvStdsLSRx" orderby="1">media/qBKRySlvStdsLSRx.jpg</image>
          </images>
       </step>
       <step number="9" title="">
@@ -114,7 +114,7 @@
             <line bullet="icon_reminder" level="0">Make sure that you reconnect the keyboard cable before replacing the RAM shield.</line>
          </lines>
          <images>
-            <image guid="E1OU2TEhhfVok3hE" orderby="1">http://nwelch.cominor.com/igi/E1OU2TEhhfVok3hE</image>
+            <image guid="E1OU2TEhhfVok3hE" orderby="1">media/E1OU2TEhhfVok3hE.jpg</image>
          </images>
       </step>
       <step number="10" title="">
@@ -122,7 +122,7 @@
             <line bullet="black" level="0">Use a pin (or anything you like) to remove the three rubber feet from the lower case.</line>
          </lines>
          <images>
-            <image guid="FUyQvBOmxFHmaJ2D" orderby="1">http://nwelch.cominor.com/igi/FUyQvBOmxFHmaJ2D</image>
+            <image guid="FUyQvBOmxFHmaJ2D" orderby="1">media/FUyQvBOmxFHmaJ2D.jpg</image>
          </images>
       </step>
       <step number="11" title="">
@@ -130,7 +130,7 @@
             <line bullet="black" level="0">Remove the three newly-revealed Phillips screws.</line>
          </lines>
          <images>
-            <image guid="mlM6SUeTposnLWJt" orderby="1">http://nwelch.cominor.com/igi/mlM6SUeTposnLWJt</image>
+            <image guid="mlM6SUeTposnLWJt" orderby="1">media/mlM6SUeTposnLWJt.jpg</image>
          </images>
       </step>
       <step number="12" title="">
@@ -138,7 +138,7 @@
             <line bullet="black" level="0">Use a spudger or small flathead screwdriver to pry up the three metal rings that housed the rubber bumpers.</line>
          </lines>
          <images>
-            <image guid="s5svYyRgiAlbvHwE" orderby="1">http://nwelch.cominor.com/igi/s5svYyRgiAlbvHwE</image>
+            <image guid="s5svYyRgiAlbvHwE" orderby="1">media/s5svYyRgiAlbvHwE.jpg</image>
          </images>
       </step>
       <step number="13" title="">
@@ -147,7 +147,7 @@
             <line bullet="icon_reminder" level="0">The shorter screw is in the center of the computer.</line>
          </lines>
          <images>
-            <image guid="4Pse1El2CwEMFYpl" orderby="1">http://nwelch.cominor.com/igi/4Pse1El2CwEMFYpl</image>
+            <image guid="4Pse1El2CwEMFYpl" orderby="1">media/4Pse1El2CwEMFYpl.jpg</image>
          </images>
       </step>
       <step number="14" title="">
@@ -155,7 +155,7 @@
             <line bullet="black" level="0">Remove the two Phillips screws on either side of the battery contacts.</line>
          </lines>
          <images>
-            <image guid="3wHKRmCgZuoVDATH" orderby="1">http://nwelch.cominor.com/igi/3wHKRmCgZuoVDATH</image>
+            <image guid="3wHKRmCgZuoVDATH" orderby="1">media/3wHKRmCgZuoVDATH.jpg</image>
          </images>
       </step>
       <step number="15" title="">
@@ -164,7 +164,7 @@
             <line bullet="black" level="0">Push the thin rims of the lower case surrounding the battery compartment in, bending them past the tabs, and then lift up to free that corner of the lower case.</line>
          </lines>
          <images>
-            <image guid="5GIi5lYaZenrmgGP" orderby="1">http://nwelch.cominor.com/igi/5GIi5lYaZenrmgGP</image>
+            <image guid="5GIi5lYaZenrmgGP" orderby="1">media/5GIi5lYaZenrmgGP.jpg</image>
          </images>
       </step>
       <step number="16" title="">
@@ -173,7 +173,7 @@
             <line bullet="icon_caution" level="0">Be careful not to break this clip!</line>
          </lines>
          <images>
-            <image guid="3ZtVbABr2uDA23P1" orderby="1">http://nwelch.cominor.com/igi/3ZtVbABr2uDA23P1</image>
+            <image guid="3ZtVbABr2uDA23P1" orderby="1">media/3ZtVbABr2uDA23P1.jpg</image>
          </images>
       </step>
       <step number="17" title="">
@@ -181,7 +181,7 @@
             <line bullet="black" level="0">Run a spudger along the seam between the lower case and upper case on the front of the computer to free the tabs locking the lower case. Pull up on the lower case and continue to use the spudger as necessary until you hear three distinct clicks.</line>
          </lines>
          <images>
-            <image guid="PWPjlkidFoNcFyFY" orderby="1">http://nwelch.cominor.com/igi/PWPjlkidFoNcFyFY</image>
+            <image guid="PWPjlkidFoNcFyFY" orderby="1">media/PWPjlkidFoNcFyFY.jpg</image>
          </images>
       </step>
       <step number="18" title="">
@@ -189,7 +189,7 @@
             <line bullet="black" level="0">Continue to run the spudger around the front, right corner. There are two tabs on the port side of the computer, one near the front corner and one near the sound-out port.</line>
          </lines>
          <images>
-            <image guid="mWMSQTBbG2oDVQYp" orderby="1">http://nwelch.cominor.com/igi/mWMSQTBbG2oDVQYp</image>
+            <image guid="mWMSQTBbG2oDVQYp" orderby="1">media/mWMSQTBbG2oDVQYp.jpg</image>
          </images>
       </step>
       <step number="19" title="">
@@ -197,7 +197,7 @@
             <line bullet="black" level="0">There are three tabs over the optical drive that must be released before the lower case can come off. Slide the spudger into the lower case above the optical drive and run it toward the back of the computer until you hear three distinct clicks.</line>
          </lines>
          <images>
-            <image guid="fHNjk3GbLT5yWArL" orderby="1">http://nwelch.cominor.com/igi/fHNjk3GbLT5yWArL</image>
+            <image guid="fHNjk3GbLT5yWArL" orderby="1">media/fHNjk3GbLT5yWArL.jpg</image>
          </images>
       </step>
       <step number="20" title="">
@@ -205,7 +205,7 @@
             <line bullet="black" level="0">Once the front and sides of the lower case are free, turn the computer so that the back is facing you and pull the lower case up and toward you until the back tabs pop free (it may be helpful to jiggle the case up and down).</line>
          </lines>
          <images>
-            <image guid="qcRKsrtmuvEmYgds" orderby="1">http://nwelch.cominor.com/igi/qcRKsrtmuvEmYgds</image>
+            <image guid="qcRKsrtmuvEmYgds" orderby="1">media/qcRKsrtmuvEmYgds.jpg</image>
          </images>
       </step>
       <step number="21" title="">
@@ -213,7 +213,7 @@
             <line bullet="black" level="0">Remove the small greasy springs with white plastic caps from either side of the battery contacts.</line>
          </lines>
          <images>
-            <image guid="VLZquEv4CT3Q6BZd" orderby="1">http://nwelch.cominor.com/igi/VLZquEv4CT3Q6BZd</image>
+            <image guid="VLZquEv4CT3Q6BZd" orderby="1">media/VLZquEv4CT3Q6BZd.jpg</image>
          </images>
       </step>
       <step number="22" title="">
@@ -224,7 +224,7 @@
             <line bullet="yellow" level="1">One 14 mm Phillips</line>
          </lines>
          <images>
-            <image guid="FcORcLNdwO3QVZv3" orderby="1">http://nwelch.cominor.com/igi/FcORcLNdwO3QVZv3</image>
+            <image guid="FcORcLNdwO3QVZv3" orderby="1">media/FcORcLNdwO3QVZv3.jpg</image>
          </images>
       </step>
       <step number="23" title="">
@@ -232,7 +232,7 @@
             <line bullet="black" level="0">Lift the bottom shield off.</line>
          </lines>
          <images>
-            <image guid="YrJXr6CtLSFNwSVP" orderby="1">http://nwelch.cominor.com/igi/YrJXr6CtLSFNwSVP</image>
+            <image guid="YrJXr6CtLSFNwSVP" orderby="1">media/YrJXr6CtLSFNwSVP.jpg</image>
          </images>
       </step>
       <step number="24" title="">
@@ -240,7 +240,7 @@
             <line bullet="black" level="0">Remove the single Phillips screw securing the DC-In board.</line>
          </lines>
          <images>
-            <image guid="VVvGfYLOaNsHsgQX" orderby="1">http://nwelch.cominor.com/igi/VVvGfYLOaNsHsgQX</image>
+            <image guid="VVvGfYLOaNsHsgQX" orderby="1">media/VVvGfYLOaNsHsgQX.jpg</image>
          </images>
       </step>
       <step number="25" title="">
@@ -248,7 +248,7 @@
             <line bullet="black" level="0">Disconnect the DC-In cable from the logic board.</line>
          </lines>
          <images>
-            <image guid="f5VNyWYgJgiCcPMN" orderby="1">http://nwelch.cominor.com/igi/f5VNyWYgJgiCcPMN</image>
+            <image guid="f5VNyWYgJgiCcPMN" orderby="1">media/f5VNyWYgJgiCcPMN.jpg</image>
          </images>
       </step>
       <step number="26" title="">
@@ -256,7 +256,7 @@
             <line bullet="black" level="0">Deroute the cable from around the optical drive, removing tape as necessary, and angle the DC-In board out of its compartment.</line>
          </lines>
          <images>
-            <image guid="O3x4KoHveTiHsPGr" orderby="1">http://nwelch.cominor.com/igi/O3x4KoHveTiHsPGr</image>
+            <image guid="O3x4KoHveTiHsPGr" orderby="1">media/O3x4KoHveTiHsPGr.jpg</image>
          </images>
       </step>
       <step number="27" title="">
@@ -264,22 +264,22 @@
             <line bullet="black" level="0">Remove the following 11 screws from the bottom of the computer:</line>
             <line bullet="red" level="1">Three 3 mm Phillips around the battery compartment.</line>
             <line bullet="orange" level="1">Three 4.5 mm Phillips along the optical drive bezel. (a magnetic screwdriver may help to lift these screws out)</line>
-            <line bullet="yellow" level="1">One 12 mm Phillips in the lower right corner.</line>
+            <line bullet="yellow" level="1">One 11 mm Phillips in the lower right corner.</line>
             <line bullet="green" level="1">Four 14.5 mm Phillips.</line>
          </lines>
          <images>
-            <image guid="A4swCUOKSxRYBYRX" orderby="1">http://nwelch.cominor.com/igi/A4swCUOKSxRYBYRX</image>
+            <image guid="A4swCUOKSxRYBYRX" orderby="1">media/A4swCUOKSxRYBYRX.jpg</image>
          </images>
       </step>
       <step number="28" title="">
          <lines>
             <line bullet="icon_note" level="0">We recommend placing the computer on a soft cloth from this point on to prevent damaging the logic board.</line>
             <line bullet="black" level="0">Turn over the computer and open it.</line>
-            <line bullet="black" level="0">Remove the 3 Phillips screws from the edges of the keyboard area.</line>
+            <line bullet="black" level="0">Remove the 3 Phillips screws (4mm) from the edges of the keyboard area.</line>
             <line bullet="icon_reminder" level="0">The shorter screw goes in the lower left corner.</line>
          </lines>
          <images>
-            <image guid="qNbBfRsEtJmcWgD3" orderby="1">http://nwelch.cominor.com/igi/qNbBfRsEtJmcWgD3</image>
+            <image guid="qNbBfRsEtJmcWgD3" orderby="1">media/qNbBfRsEtJmcWgD3.jpg</image>
          </images>
       </step>
       <step number="29" title="">
@@ -288,7 +288,7 @@
             <line bullet="black" level="0">Lift the upper case and use a spudger or your finger to disconnect the trackpad connector hidden beneath the white plastic tab. Due to model variatons your trackpad connector may be different than the one pictured.</line>
          </lines>
          <images>
-            <image guid="xboCDBELJQJOMD1a" orderby="1">http://nwelch.cominor.com/igi/xboCDBELJQJOMD1a</image>
+            <image guid="xboCDBELJQJOMD1a" orderby="1">media/xboCDBELJQJOMD1a.jpg</image>
          </images>
       </step>
       <step number="30" title="">
@@ -296,7 +296,7 @@
             <line bullet="black" level="0">Carefully lift the upper case about half of an inch and move it so that you can access the power and speaker cables.</line>
          </lines>
          <images>
-            <image guid="axnVTAlkcDeEgQxG" orderby="1">http://nwelch.cominor.com/igi/axnVTAlkcDeEgQxG</image>
+            <image guid="axnVTAlkcDeEgQxG" orderby="1">media/axnVTAlkcDeEgQxG.jpg</image>
          </images>
       </step>
       <step number="31" title="">
@@ -305,7 +305,7 @@
             <line bullet="black" level="0">Lift the upper case enough to disconnect the blue and white power cable from the logic board. Using your fingernails or a dental pick, carefully pry the connector from its socket. Make sure you're pulling only on the connector and not on the socket.</line>
          </lines>
          <images>
-            <image guid="MQ5kXQoR4OGZ1fuh" orderby="1">http://nwelch.cominor.com/igi/MQ5kXQoR4OGZ1fuh</image>
+            <image guid="MQ5kXQoR4OGZ1fuh" orderby="1">media/MQ5kXQoR4OGZ1fuh.jpg</image>
          </images>
       </step>
       <step number="32" title="">
@@ -313,7 +313,7 @@
             <line bullet="black" level="0">Carefully disconnect the multicolored speaker cable from the logic board. As before, make sure you're pulling only on the connector and not on the socket.</line>
          </lines>
          <images>
-            <image guid="l5tM5MlEHRyImgIQ" orderby="1">http://nwelch.cominor.com/igi/l5tM5MlEHRyImgIQ</image>
+            <image guid="l5tM5MlEHRyImgIQ" orderby="1">media/l5tM5MlEHRyImgIQ.jpg</image>
          </images>
       </step>
       <step number="33" title="">
@@ -324,17 +324,19 @@
             <line bullet="orange" level="1">One 3 mm Phillips. (actual screw not present in image)</line>
             <line bullet="yellow" level="1">Two 4 mm Phillips.</line>
             <line bullet="icon_reminder" level="0">Be sure to fit the screw near the left hinge through the loop in the display data cable, securing the cable to the upper case.</line>
+            <line bullet="icon_caution" level="0">Missing in this photo is the Bluetooth antenna present in some iBooks. It is located at the upper right corner of the battery compartment, just above the 4mm screw. You can see the bracket for the antenna in the photo. It is the two I-shaped holes just above the 4mm screw that must be removed in this step. To remove the antenna, slide it toward the LCD, and tilt it vertically back towards yourself.</line>
          </lines>
          <images>
-            <image guid="tcIrRlLE6PxJZkoK" orderby="1">http://nwelch.cominor.com/igi/tcIrRlLE6PxJZkoK</image>
+            <image guid="tcIrRlLE6PxJZkoK" orderby="1">media/tcIrRlLE6PxJZkoK.jpg</image>
          </images>
       </step>
       <step number="34" title="">
          <lines>
             <line bullet="black" level="0">Lift the top shield up from the right side, minding the upper left corner, which may catch on the metal framework.</line>
+            <line bullet="black" level="0">If your iBook has Bluetooth, as discussed in the previous step, you will need to slide the antenna through the lower I-shaped hole in the shield before completely removing the shield.</line>
          </lines>
          <images>
-            <image guid="LqCWsXYtapS6j2cL" orderby="1">http://nwelch.cominor.com/igi/LqCWsXYtapS6j2cL</image>
+            <image guid="LqCWsXYtapS6j2cL" orderby="1">media/LqCWsXYtapS6j2cL.jpg</image>
          </images>
       </step>
       <step number="35" title="">
@@ -343,7 +345,7 @@
             <line bullet="red" level="0">Remove the two Phillips screws at the corners of the modem.</line>
          </lines>
          <images>
-            <image guid="qJhmmNfLFGZLSiYj" orderby="1">http://nwelch.cominor.com/igi/qJhmmNfLFGZLSiYj</image>
+            <image guid="qJhmmNfLFGZLSiYj" orderby="1">media/qJhmmNfLFGZLSiYj.jpg</image>
          </images>
       </step>
       <step number="36" title="">
@@ -351,7 +353,7 @@
             <line bullet="black" level="0">Lift the modem and modem shield from the bottom.</line>
          </lines>
          <images>
-            <image guid="uqHvglHwBKtQRcKv" orderby="1">http://nwelch.cominor.com/igi/uqHvglHwBKtQRcKv</image>
+            <image guid="uqHvglHwBKtQRcKv" orderby="1">media/uqHvglHwBKtQRcKv.jpg</image>
          </images>
       </step>
       <step number="37" title="">
@@ -360,7 +362,7 @@
             <line bullet="icon_reminder" level="0">When replacing the modem, first make sure that both the microphone and display data cables are routed beneath where the modem lies.</line>
          </lines>
          <images>
-            <image guid="EUHxUZMtpVqGrRXC" orderby="1">http://nwelch.cominor.com/igi/EUHxUZMtpVqGrRXC</image>
+            <image guid="EUHxUZMtpVqGrRXC" orderby="1">media/EUHxUZMtpVqGrRXC.jpg</image>
          </images>
       </step>
       <step number="38" title="">
@@ -369,7 +371,7 @@
             <line bullet="black" level="0">Disconnect the inverter cable from the logic board and deroute it from the metal framework, removing tape as necessary.</line>
          </lines>
          <images>
-            <image guid="mgxEQdfA6bLLkJTy" orderby="1">http://nwelch.cominor.com/igi/mgxEQdfA6bLLkJTy</image>
+            <image guid="mgxEQdfA6bLLkJTy" orderby="1">media/mgxEQdfA6bLLkJTy.jpg</image>
          </images>
       </step>
       <step number="39" title="">
@@ -379,7 +381,7 @@
             <line bullet="black" level="0">Disconnect the microphone cable at the front of the computer, between the left side of the hard drive and the metal framework.</line>
          </lines>
          <images>
-            <image guid="HZBtuHWRJqVoENQC" orderby="1">http://nwelch.cominor.com/igi/HZBtuHWRJqVoENQC</image>
+            <image guid="HZBtuHWRJqVoENQC" orderby="1">media/HZBtuHWRJqVoENQC.jpg</image>
          </images>
       </step>
       <step number="40" title="">
@@ -387,7 +389,7 @@
             <line bullet="black" level="0">Use the black plastic loop to disconnect the display data cable from the logic board.</line>
          </lines>
          <images>
-            <image guid="4RykdhCaGZtMOdWo" orderby="1">http://nwelch.cominor.com/igi/4RykdhCaGZtMOdWo</image>
+            <image guid="4RykdhCaGZtMOdWo" orderby="1">media/4RykdhCaGZtMOdWo.jpg</image>
          </images>
       </step>
       <step number="41" title="">
@@ -395,7 +397,7 @@
             <line bullet="black" level="0">Deroute the microphone and display data cables from the metal framework, removing tape as necessary.</line>
          </lines>
          <images>
-            <image guid="oCJ3lKKYeBPu1HpM" orderby="1">http://nwelch.cominor.com/igi/oCJ3lKKYeBPu1HpM</image>
+            <image guid="oCJ3lKKYeBPu1HpM" orderby="1">media/oCJ3lKKYeBPu1HpM.jpg</image>
          </images>
       </step>
       <step number="42" title="">
@@ -403,7 +405,7 @@
             <line bullet="black" level="0">Deroute the AirPort antenna cable from the metal framework, removing tape as necessary.</line>
          </lines>
          <images>
-            <image guid="4itW2ocs1XixEqYa" orderby="1">http://nwelch.cominor.com/igi/4itW2ocs1XixEqYa</image>
+            <image guid="4itW2ocs1XixEqYa" orderby="1">media/4itW2ocs1XixEqYa.jpg</image>
          </images>
       </step>
       <step number="43" title="">
@@ -412,7 +414,7 @@
             <line bullet="icon_reminder" level="0">The screws go in the outer holes on each side (you can see the threads in the correct hole).</line>
          </lines>
          <images>
-            <image guid="xaQBjixGTmanYhtm" orderby="1">http://nwelch.cominor.com/igi/xaQBjixGTmanYhtm</image>
+            <image guid="xaQBjixGTmanYhtm" orderby="1">media/xaQBjixGTmanYhtm.jpg</image>
          </images>
       </step>
       <step number="44" title="">
@@ -420,7 +422,7 @@
             <line bullet="black" level="0">Lift the display up and tilt it backwards, freeing it from the two metal alignment posts holding the hinges in place, and slide it away from you.</line>
          </lines>
          <images>
-            <image guid="Ds6QU25fEQJQDkOs" orderby="1">http://nwelch.cominor.com/igi/Ds6QU25fEQJQDkOs</image>
+            <image guid="Ds6QU25fEQJQDkOs" orderby="1">media/Ds6QU25fEQJQDkOs.jpg</image>
          </images>
       </step>
       <step number="45" title="">
@@ -429,7 +431,7 @@
             <line bullet="icon_note" level="0">If you don't have a 1.5mm hex driver, you can probably get these screws out with a T6 Torx screwdriver. However, if you use a T6 Torx driver you'll be more likely to strip the screws.</line>
          </lines>
          <images>
-            <image guid="6qYVuGhAAABauPOJ" orderby="1">http://nwelch.cominor.com/igi/6qYVuGhAAABauPOJ</image>
+            <image guid="6qYVuGhAAABauPOJ" orderby="1">media/6qYVuGhAAABauPOJ.jpg</image>
          </images>
       </step>
       <step number="46" title="">
@@ -438,7 +440,7 @@
             <line bullet="icon_note" level="0">It is helpful to hold the opposing corner of the display stationary to aid in flexing the rear bezel away from the display.</line>
          </lines>
          <images>
-            <image guid="HNyZEosXt6kdG2ar" orderby="1">http://nwelch.cominor.com/igi/HNyZEosXt6kdG2ar</image>
+            <image guid="HNyZEosXt6kdG2ar" orderby="1">media/HNyZEosXt6kdG2ar.jpg</image>
          </images>
       </step>
       <step number="47" title="">
@@ -448,9 +450,9 @@
             <line bullet="black" level="0">Run the spudger around the perimeter of the display to separate the rear bezel from its retaining clips.</line>
          </lines>
          <images>
-            <image guid="FDXLYOLfxJJdKmQS" orderby="1">http://nwelch.cominor.com/igi/FDXLYOLfxJJdKmQS</image>
-            <image guid="PIG2GNTRa6yJF4qS" orderby="2">http://nwelch.cominor.com/igi/PIG2GNTRa6yJF4qS</image>
-            <image guid="FtY5eZamVfGRod3I" orderby="3">http://nwelch.cominor.com/igi/FtY5eZamVfGRod3I</image>
+            <image guid="FDXLYOLfxJJdKmQS" orderby="1">media/FDXLYOLfxJJdKmQS.jpg</image>
+            <image guid="PIG2GNTRa6yJF4qS" orderby="2">media/PIG2GNTRa6yJF4qS.jpg</image>
+            <image guid="FtY5eZamVfGRod3I" orderby="3">media/FtY5eZamVfGRod3I.jpg</image>
          </images>
       </step>
       <step number="48" title="">
@@ -458,7 +460,7 @@
             <line bullet="black" level="0">Lift the rear bezel off the display.</line>
          </lines>
          <images>
-            <image guid="diGXsCWPKxZJHNxr" orderby="1">http://nwelch.cominor.com/igi/diGXsCWPKxZJHNxr</image>
+            <image guid="diGXsCWPKxZJHNxr" orderby="1">media/diGXsCWPKxZJHNxr.jpg</image>
          </images>
       </step>
       <step number="49" title="">
@@ -467,8 +469,8 @@
             <line bullet="black" level="0">Carefully remove the aluminum tape covering the display data cable connection.</line>
          </lines>
          <images>
-            <image guid="Wethul6AVyi5ObGR" orderby="1">http://nwelch.cominor.com/igi/Wethul6AVyi5ObGR</image>
-            <image guid="uPxZKIEoqOMY5GNI" orderby="2">http://nwelch.cominor.com/igi/uPxZKIEoqOMY5GNI</image>
+            <image guid="Wethul6AVyi5ObGR" orderby="1">media/Wethul6AVyi5ObGR.jpg</image>
+            <image guid="uPxZKIEoqOMY5GNI" orderby="2">media/uPxZKIEoqOMY5GNI.jpg</image>
          </images>
       </step>
       <step number="50" title="">
@@ -477,8 +479,8 @@
             <line bullet="black" level="0">Use the tip of a spudger to remove the small washer under the screw you just removed.</line>
          </lines>
          <images>
-            <image guid="RD1tb6sR31wKXFUZ" orderby="1">http://nwelch.cominor.com/igi/RD1tb6sR31wKXFUZ</image>
-            <image guid="RFSfm1QtnIoasp6i" orderby="2">http://nwelch.cominor.com/igi/RFSfm1QtnIoasp6i</image>
+            <image guid="RD1tb6sR31wKXFUZ" orderby="1">media/RD1tb6sR31wKXFUZ.jpg</image>
+            <image guid="RFSfm1QtnIoasp6i" orderby="2">media/RFSfm1QtnIoasp6i.jpg</image>
          </images>
       </step>
       <step number="51" title="">
@@ -487,7 +489,7 @@
             <line bullet="icon_note" level="0">It is not necessary to peel the tape off the thin steel LCD cover.</line>
          </lines>
          <images>
-            <image guid="DnCKEjjkcIBHATfH" orderby="1">http://nwelch.cominor.com/igi/DnCKEjjkcIBHATfH</image>
+            <image guid="DnCKEjjkcIBHATfH" orderby="1">media/DnCKEjjkcIBHATfH.jpg</image>
          </images>
       </step>
       <step number="52" title="">
@@ -495,8 +497,8 @@
             <line bullet="red" level="0">Remove the two Phillips screws securing each side of the LCD to the clutch hinge frame (four screws total).</line>
          </lines>
          <images>
-            <image guid="1lfV1qWtCk2E2Qnm" orderby="1">http://nwelch.cominor.com/igi/1lfV1qWtCk2E2Qnm</image>
-            <image guid="IYAQ6s6Ysx1hpXh2" orderby="2">http://nwelch.cominor.com/igi/IYAQ6s6Ysx1hpXh2</image>
+            <image guid="1lfV1qWtCk2E2Qnm" orderby="1">media/1lfV1qWtCk2E2Qnm.jpg</image>
+            <image guid="IYAQ6s6Ysx1hpXh2" orderby="2">media/IYAQ6s6Ysx1hpXh2.jpg</image>
          </images>
       </step>
       <step number="53" title="">
@@ -504,7 +506,7 @@
             <line bullet="black" level="0">Lift the thin steel LCD cover off the LCD.</line>
          </lines>
          <images>
-            <image guid="BDTWI3nvkn2r2XFD" orderby="1">http://nwelch.cominor.com/igi/BDTWI3nvkn2r2XFD</image>
+            <image guid="BDTWI3nvkn2r2XFD" orderby="1">media/BDTWI3nvkn2r2XFD.jpg</image>
          </images>
       </step>
       <step number="54" title="">
@@ -512,7 +514,7 @@
             <line bullet="red" level="0">Remove the second of the two Phillips screws securing the clutch cover to the cast aluminum frame of the clutch hinges.</line>
          </lines>
          <images>
-            <image guid="KDTCrMp2XJGDB2Q2" orderby="1">http://nwelch.cominor.com/igi/KDTCrMp2XJGDB2Q2</image>
+            <image guid="KDTCrMp2XJGDB2Q2" orderby="1">media/KDTCrMp2XJGDB2Q2.jpg</image>
          </images>
       </step>
       <step number="55" title="">
@@ -521,9 +523,9 @@
             <line bullet="icon_note" level="0">Keep track of the two covers that close the ends of the clutch cover. The third picture shows their correct orientation on the clutch cover.</line>
          </lines>
          <images>
-            <image guid="16NXXyX4FCNGCoe1" orderby="1">http://nwelch.cominor.com/igi/16NXXyX4FCNGCoe1</image>
-            <image guid="JhkR5UMSXI2DlLD1" orderby="2">http://nwelch.cominor.com/igi/JhkR5UMSXI2DlLD1</image>
-            <image guid="PG4dVuFiO1dMT1Bd" orderby="3">http://nwelch.cominor.com/igi/PG4dVuFiO1dMT1Bd</image>
+            <image guid="16NXXyX4FCNGCoe1" orderby="1">media/16NXXyX4FCNGCoe1.jpg</image>
+            <image guid="JhkR5UMSXI2DlLD1" orderby="2">media/JhkR5UMSXI2DlLD1.jpg</image>
+            <image guid="PG4dVuFiO1dMT1Bd" orderby="3">media/PG4dVuFiO1dMT1Bd.jpg</image>
          </images>
       </step>
       <step number="56" title="">
@@ -531,7 +533,7 @@
             <line bullet="red" level="0">Remove the pieces of tape covering the display data and microphone cables near the bottom edge of the display.</line>
          </lines>
          <images>
-            <image guid="hXomfOKeTchLfiQe" orderby="1">http://nwelch.cominor.com/igi/hXomfOKeTchLfiQe</image>
+            <image guid="hXomfOKeTchLfiQe" orderby="1">media/hXomfOKeTchLfiQe.jpg</image>
          </images>
       </step>
       <step number="57" title="">
@@ -540,7 +542,7 @@
             <line bullet="icon_note" level="0">Pull the connector parallel to the face of the LCD.</line>
          </lines>
          <images>
-            <image guid="Xcj3UVLbuXgi561q" orderby="1">http://nwelch.cominor.com/igi/Xcj3UVLbuXgi561q</image>
+            <image guid="Xcj3UVLbuXgi561q" orderby="1">media/Xcj3UVLbuXgi561q.jpg</image>
          </images>
       </step>
       <step number="58" title="">
@@ -549,8 +551,8 @@
             <line bullet="black" level="0">De-route the microphone cable from around the top and side of the display.</line>
          </lines>
          <images>
-            <image guid="LCOhLBTZMLDMLofF" orderby="1">http://nwelch.cominor.com/igi/LCOhLBTZMLDMLofF</image>
-            <image guid="BniMcki6PN1BFboL" orderby="2">http://nwelch.cominor.com/igi/BniMcki6PN1BFboL</image>
+            <image guid="LCOhLBTZMLDMLofF" orderby="1">media/LCOhLBTZMLDMLofF.jpg</image>
+            <image guid="BniMcki6PN1BFboL" orderby="2">media/BniMcki6PN1BFboL.jpg</image>
          </images>
       </step>
       <step number="59" title="">
@@ -558,7 +560,7 @@
             <line bullet="black" level="0">Remove the display data cable from the display.</line>
          </lines>
          <images>
-            <image guid="MFRumJoCfx3xXIfc" orderby="1">http://nwelch.cominor.com/igi/MFRumJoCfx3xXIfc</image>
+            <image guid="MFRumJoCfx3xXIfc" orderby="1">media/MFRumJoCfx3xXIfc.jpg</image>
          </images>
       </step>
       <step number="60" title="">
@@ -567,8 +569,8 @@
             <line bullet="black" level="0">Carefully peel the inverter cable ground strap off the cast aluminum frame of the clutch hinges.</line>
          </lines>
          <images>
-            <image guid="EHC4KXeYmMK1PHKv" orderby="1">http://nwelch.cominor.com/igi/EHC4KXeYmMK1PHKv</image>
-            <image guid="PPcEKap245CXWGxd" orderby="2">http://nwelch.cominor.com/igi/PPcEKap245CXWGxd</image>
+            <image guid="EHC4KXeYmMK1PHKv" orderby="1">media/EHC4KXeYmMK1PHKv.jpg</image>
+            <image guid="PPcEKap245CXWGxd" orderby="2">media/PPcEKap245CXWGxd.jpg</image>
          </images>
       </step>
       <step number="61" title="">
@@ -577,8 +579,8 @@
             <line bullet="icon_note" level="0">It is helpful to use a spudger to push the backlight connector away from its socket while you lightly pull its cables away from the inverter.</line>
          </lines>
          <images>
-            <image guid="u23Am6yhCTZSIstb" orderby="1">http://nwelch.cominor.com/igi/u23Am6yhCTZSIstb</image>
-            <image guid="Oi1Dqvlf2311wNGa" orderby="2">http://nwelch.cominor.com/igi/Oi1Dqvlf2311wNGa</image>
+            <image guid="u23Am6yhCTZSIstb" orderby="1">media/u23Am6yhCTZSIstb.jpg</image>
+            <image guid="Oi1Dqvlf2311wNGa" orderby="2">media/Oi1Dqvlf2311wNGa.jpg</image>
          </images>
       </step>
       <step number="62" title="">
@@ -586,7 +588,7 @@
             <line bullet="black" level="0">Lift the LCD out of the display assembly.</line>
          </lines>
          <images>
-            <image guid="BTQX6PEJu11guJJD" orderby="1">http://nwelch.cominor.com/igi/BTQX6PEJu11guJJD</image>
+            <image guid="BTQX6PEJu11guJJD" orderby="1">media/BTQX6PEJu11guJJD.jpg</image>
          </images>
       </step>
       <step number="63" title="">
@@ -595,7 +597,7 @@
             <line bullet="black" level="0">Carefully lift the reed switch board off the metal frame of the clutch hinges.</line>
          </lines>
          <images>
-            <image guid="v5mHpNVsitDjaFpV" orderby="1">http://nwelch.cominor.com/igi/v5mHpNVsitDjaFpV</image>
+            <image guid="v5mHpNVsitDjaFpV" orderby="1">media/v5mHpNVsitDjaFpV.jpg</image>
          </images>
       </step>
       <step number="64" title="">
@@ -604,8 +606,8 @@
             <line bullet="black" level="0">Carefully lift the right AirPort antenna off the clutch hinge frame.</line>
          </lines>
          <images>
-            <image guid="MAUWDGP3wgRpgn3j" orderby="1">http://nwelch.cominor.com/igi/MAUWDGP3wgRpgn3j</image>
-            <image guid="2GqF4qpKVAGsjgq5" orderby="2">http://nwelch.cominor.com/igi/2GqF4qpKVAGsjgq5</image>
+            <image guid="MAUWDGP3wgRpgn3j" orderby="1">media/MAUWDGP3wgRpgn3j.jpg</image>
+            <image guid="2GqF4qpKVAGsjgq5" orderby="2">media/2GqF4qpKVAGsjgq5.jpg</image>
          </images>
       </step>
       <step number="65" title="">
@@ -614,8 +616,8 @@
             <line bullet="black" level="0">Carefully lift the left AirPort antenna off the clutch hinge frame.</line>
          </lines>
          <images>
-            <image guid="bvvNjweIbRxLYAKG" orderby="1">http://nwelch.cominor.com/igi/bvvNjweIbRxLYAKG</image>
-            <image guid="AJvVN2Mf6yN2lXmt" orderby="2">http://nwelch.cominor.com/igi/AJvVN2Mf6yN2lXmt</image>
+            <image guid="bvvNjweIbRxLYAKG" orderby="1">media/bvvNjweIbRxLYAKG.jpg</image>
+            <image guid="AJvVN2Mf6yN2lXmt" orderby="2">media/AJvVN2Mf6yN2lXmt.jpg</image>
          </images>
       </step>
       <step number="66" title="">
@@ -624,7 +626,7 @@
             <line bullet="icon_caution" level="0">The antenna board is very thin and delicate.</line>
          </lines>
          <images>
-            <image guid="KtEsZTvhlThdsErk" orderby="1">http://nwelch.cominor.com/igi/KtEsZTvhlThdsErk</image>
+            <image guid="KtEsZTvhlThdsErk" orderby="1">media/KtEsZTvhlThdsErk.jpg</image>
          </images>
       </step>
       <step number="67" title="">
@@ -633,8 +635,8 @@
             <line bullet="black" level="0">Carefully bend the front display bezel away from the clutch hinges as you slide the two AirPort antennas out from under the clutch hinge frame.</line>
          </lines>
          <images>
-            <image guid="EITwQjlAaCj2kFcT" orderby="1">http://nwelch.cominor.com/igi/EITwQjlAaCj2kFcT</image>
-            <image guid="ZsMXcVUTXYd5INT2" orderby="2">http://nwelch.cominor.com/igi/ZsMXcVUTXYd5INT2</image>
+            <image guid="EITwQjlAaCj2kFcT" orderby="1">media/EITwQjlAaCj2kFcT.jpg</image>
+            <image guid="ZsMXcVUTXYd5INT2" orderby="2">media/ZsMXcVUTXYd5INT2.jpg</image>
          </images>
       </step>
       <step number="68" title="">
@@ -643,8 +645,8 @@
             <line bullet="icon_note" level="0">If the connector won't budge from its socket, insert a metal spudger or similar tool into the gap between the connector and its socket and twist to separate the two pieces.</line>
          </lines>
          <images>
-            <image guid="UigyJMXLv2qM4Iwt" orderby="1">http://nwelch.cominor.com/igi/UigyJMXLv2qM4Iwt</image>
-            <image guid="OkWVCl6EcRv4Cftv" orderby="2">http://nwelch.cominor.com/igi/OkWVCl6EcRv4Cftv</image>
+            <image guid="UigyJMXLv2qM4Iwt" orderby="1">media/UigyJMXLv2qM4Iwt.jpg</image>
+            <image guid="OkWVCl6EcRv4Cftv" orderby="2">media/OkWVCl6EcRv4Cftv.jpg</image>
          </images>
       </step>
       <step number="69" title="">
@@ -653,8 +655,8 @@
             <line bullet="black" level="0">Lift the clutch hinges off the front display bezel.</line>
          </lines>
          <images>
-            <image guid="HJwNRKPBvgmBTFf4" orderby="1">http://nwelch.cominor.com/igi/HJwNRKPBvgmBTFf4</image>
-            <image guid="ftlVp55LidhWsX4G" orderby="2">http://nwelch.cominor.com/igi/ftlVp55LidhWsX4G</image>
+            <image guid="HJwNRKPBvgmBTFf4" orderby="1">media/HJwNRKPBvgmBTFf4.jpg</image>
+            <image guid="ftlVp55LidhWsX4G" orderby="2">media/ftlVp55LidhWsX4G.jpg</image>
          </images>
       </step>
       <step number="70" title="">
@@ -664,8 +666,8 @@
             <line bullet="black" level="0">Lift the inverter out of the front display bezel.</line>
          </lines>
          <images>
-            <image guid="sdOyUhLDhZPhbpyw" orderby="1">http://nwelch.cominor.com/igi/sdOyUhLDhZPhbpyw</image>
-            <image guid="TaEKbIZotAp26lCv" orderby="2">http://nwelch.cominor.com/igi/TaEKbIZotAp26lCv</image>
+            <image guid="sdOyUhLDhZPhbpyw" orderby="1">media/sdOyUhLDhZPhbpyw.jpg</image>
+            <image guid="TaEKbIZotAp26lCv" orderby="2">media/TaEKbIZotAp26lCv.jpg</image>
          </images>
       </step>
       <step number="71" title="">
@@ -675,8 +677,8 @@
             <line bullet="black" level="0">Lift the inverter out of the front display bezel.</line>
          </lines>
          <images>
-            <image guid="sdOyUhLDhZPhbpyw" orderby="1">http://nwelch.cominor.com/igi/sdOyUhLDhZPhbpyw</image>
-            <image guid="TaEKbIZotAp26lCv" orderby="2">http://nwelch.cominor.com/igi/TaEKbIZotAp26lCv</image>
+            <image guid="sdOyUhLDhZPhbpyw" orderby="1">media/sdOyUhLDhZPhbpyw.jpg</image>
+            <image guid="TaEKbIZotAp26lCv" orderby="2">media/TaEKbIZotAp26lCv.jpg</image>
          </images>
       </step>
    </steps>
